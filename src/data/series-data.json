@@ -1,0 +1,152 @@
+{
+  "lastUpdated": "2025-11-21T23:01:20.748Z",
+  "seriesScore": {
+    "england": 0,
+    "australia": 0,
+    "draw": 0
+  },
+  "matches": {
+    "108787": {
+      "matchId": "108787",
+      "date": "2025-11-21",
+      "status": "Day 1: Stumps - Australia trail by 49 runs",
+      "result": "Day 1: Stumps - Australia trail by 49 runs",
+      "scores": {
+        "eng": "172-10",
+        "aus": "123-9"
+      },
+      "playerStats": {
+        "eng": {
+          "Zak Crawley": {
+            "runs": 0,
+            "wickets": 0
+          },
+          "Duckett": {
+            "runs": 21,
+            "wickets": 0
+          },
+          "Ollie Pope": {
+            "runs": 46,
+            "wickets": 0
+          },
+          "Root": {
+            "runs": 0,
+            "wickets": 0
+          },
+          "Harry Brook": {
+            "runs": 52,
+            "wickets": 0
+          },
+          "Stokes (c)": {
+            "runs": 6,
+            "wickets": 0
+          },
+          "Jamie Smith (wk)": {
+            "runs": 33,
+            "wickets": 0
+          },
+          "Gus Atkinson": {
+            "runs": 1,
+            "wickets": 0
+          },
+          "Brydon Carse": {
+            "runs": 6,
+            "wickets": 2
+          },
+          "Jofra Archer": {
+            "runs": 0,
+            "wickets": 2
+          },
+          "Mark Wood": {
+            "runs": 0,
+            "wickets": 0
+          },
+          "Ben Stokes (c)": {
+            "runs": 0,
+            "wickets": 5
+          }
+        },
+        "aus": {
+          "Mitchell Starc": {
+            "runs": 12,
+            "wickets": 7
+          },
+          "Boland": {
+            "runs": 0,
+            "wickets": 0
+          },
+          "Brendan Doggett": {
+            "runs": 0,
+            "wickets": 2
+          },
+          "Lyon": {
+            "runs": 0,
+            "wickets": 0
+          },
+          "Green": {
+            "runs": 0,
+            "wickets": 1
+          },
+          "Jake Weatherald": {
+            "runs": 0,
+            "wickets": 0
+          },
+          "Marnus Labuschagne": {
+            "runs": 9,
+            "wickets": 0
+          },
+          "Steven Smith (c)": {
+            "runs": 17,
+            "wickets": 0
+          },
+          "Usman Khawaja": {
+            "runs": 2,
+            "wickets": 0
+          },
+          "Travis Head": {
+            "runs": 21,
+            "wickets": 0
+          },
+          "Cameron Green": {
+            "runs": 24,
+            "wickets": 0
+          },
+          "Alex Carey (wk)": {
+            "runs": 26,
+            "wickets": 0
+          },
+          "Nathan Lyon": {
+            "runs": 3,
+            "wickets": 0
+          },
+          "Scott Boland": {
+            "runs": 0,
+            "wickets": 0
+          }
+        }
+      }
+    }
+  },
+  "aggregatedStats": {
+    "leadingRunScorer": {
+      "eng": {
+        "name": "Harry Brook",
+        "runs": 52
+      },
+      "aus": {
+        "name": "Alex Carey (wk)",
+        "runs": 26
+      }
+    },
+    "leadingWicketTaker": {
+      "eng": {
+        "name": "Ben Stokes (c)",
+        "wickets": 5
+      },
+      "aus": {
+        "name": "Mitchell Starc",
+        "wickets": 7
+      }
+    }
+  }
+}

@@ -1,7 +1,6 @@
 [
     {
         "id": "josh",
-        "rank": 1,
         "name": "Josh",
         "seriesScore": "5-0",
         "seriesWinner": "Australia",
@@ -9,12 +8,21 @@
         "leadRunScorerAus": "Steve Smith",
         "leadWktTakerEng": "Jofra Archer",
         "leadWktTakerAus": "Scott Boland",
-        "tiebreaker": 380,
-        "totalPoints": 0
+        "tiebreaker": 380
+    },
+    {
+        "id": "josh2",
+        "name": "Josh",
+        "seriesScore": "3-1",
+        "seriesWinner": "Australia",
+        "leadRunScorerEng": "Jamie Smith",
+        "leadRunScorerAus": "Cameron Green",
+        "leadWktTakerEng": "Gus Atkinson",
+        "leadWktTakerAus": "Mitchell Starc",
+        "tiebreaker": 289
     },
     {
         "id": "ryanh",
-        "rank": 1,
         "name": "Ryan H",
         "seriesScore": "3-1",
         "seriesWinner": "Australia",
@@ -22,12 +30,10 @@
         "leadRunScorerAus": "Steve Smith",
         "leadWktTakerEng": "Jofra Archer",
         "leadWktTakerAus": "Josh Hazlewood",
-        "tiebreaker": 337,
-        "totalPoints": 0
+        "tiebreaker": 337
     },
     {
         "id": "norman",
-        "rank": 1,
         "name": "Norman",
         "seriesScore": "3-1",
         "seriesWinner": "Australia",
@@ -35,12 +41,10 @@
         "leadRunScorerAus": "Travis Head",
         "leadWktTakerEng": "Mark Wood",
         "leadWktTakerAus": "Scott Boland",
-        "tiebreaker": 392,
-        "totalPoints": 0
+        "tiebreaker": 392
     },
     {
         "id": "thejas",
-        "rank": 1,
         "name": "Thejas Balaraman",
         "seriesScore": "3-2",
         "seriesWinner": "England",
@@ -48,12 +52,10 @@
         "leadRunScorerAus": "Steve Smith",
         "leadWktTakerEng": "Ben Stokes",
         "leadWktTakerAus": "Mitchell Starc",
-        "tiebreaker": 273,
-        "totalPoints": 0
+        "tiebreaker": 273
     },
     {
         "id": "jimmy",
-        "rank": 1,
         "name": "Jimmy",
         "seriesScore": "3-1",
         "seriesWinner": "England",
@@ -61,12 +63,10 @@
         "leadRunScorerAus": "Steve Smith",
         "leadWktTakerEng": "Gus Atkinson",
         "leadWktTakerAus": "Nathan Lyon",
-        "tiebreaker": 218,
-        "totalPoints": 0
+        "tiebreaker": 218
     },
     {
         "id": "james_jacob",
-        "rank": 1,
         "name": "James Jacob",
         "seriesScore": "3-1",
         "seriesWinner": "England",
@@ -74,12 +74,10 @@
         "leadRunScorerAus": "Steve Smith",
         "leadWktTakerEng": "Jofra Archer",
         "leadWktTakerAus": "Mitchell Starc",
-        "tiebreaker": 328,
-        "totalPoints": 0
+        "tiebreaker": 328
     },
     {
         "id": "rohan",
-        "rank": 1,
         "name": "Rohan",
         "seriesScore": "3-2",
         "seriesWinner": "Australia",
@@ -87,12 +85,10 @@
         "leadRunScorerAus": "Steve Smith",
         "leadWktTakerEng": "Jofra Archer",
         "leadWktTakerAus": "Pat Cummins",
-        "tiebreaker": 240,
-        "totalPoints": 0
+        "tiebreaker": 240
     },
     {
         "id": "wee_davey",
-        "rank": 1,
         "name": "Wee Davey",
         "seriesScore": "2-1",
         "seriesWinner": "Australia",
@@ -100,12 +96,10 @@
         "leadRunScorerAus": "Marnus Labuschagne",
         "leadWktTakerEng": "Ben Stokes",
         "leadWktTakerAus": "Scott Boland",
-        "tiebreaker": 249,
-        "totalPoints": 0
+        "tiebreaker": 249
     },
     {
         "id": "bristle",
-        "rank": 1,
         "name": "Bristle",
         "seriesScore": "3-1",
         "seriesWinner": "Australia",
@@ -113,7 +107,215 @@
         "leadRunScorerAus": "Steve Smith",
         "leadWktTakerEng": "Josh Tongue",
         "leadWktTakerAus": "Mitchell Starc",
-        "tiebreaker": 320,
-        "totalPoints": 0
+        "tiebreaker": 320
+    },
+    {
+        "id": "tushar",
+        "name": "Tushar",
+        "seriesScore": "3-2",
+        "seriesWinner": "England",
+        "leadRunScorerEng": "Harry Brook",
+        "leadRunScorerAus": "Steve Smith",
+        "leadWktTakerEng": "Jofra Archer",
+        "leadWktTakerAus": "Scott Boland",
+        "tiebreaker": 321
+    },
+    {
+        "id": "steve",
+        "name": "Steve",
+        "seriesScore": "3-2",
+        "seriesWinner": "England",
+        "leadRunScorerEng": "Zac Crawley",
+        "leadRunScorerAus": "Steve Smith",
+        "leadWktTakerEng": "Gus Atkinson",
+        "leadWktTakerAus": "Mitchell Starc",
+        "tiebreaker": 312
+    },
+    {
+        "id": "hamish_bell",
+        "name": "Hamish Bell",
+        "seriesScore": "5-0",
+        "seriesWinner": "England",
+        "leadRunScorerEng": "Harry Brook",
+        "leadRunScorerAus": "Travis Head",
+        "leadWktTakerEng": "Ben Stokes",
+        "leadWktTakerAus": "Mitchell Starc",
+        "tiebreaker": 269
+    },
+    {
+        "id": "don_elliott",
+        "name": "Don Elliott",
+        "seriesScore": "2-1",
+        "seriesWinner": "Australia",
+        "leadRunScorerEng": "Joe Root",
+        "leadRunScorerAus": "Marnus Labuschagne",
+        "leadWktTakerEng": "Ben Stokes",
+        "leadWktTakerAus": "Mitchell Starc",
+        "tiebreaker": 275
+    },
+    {
+        "id": "stomar",
+        "name": "Shashank Tomar",
+        "seriesScore": "3-1",
+        "seriesWinner": "Australia",
+        "leadRunScorerEng": "Harry Brook",
+        "leadRunScorerAus": "Marnus Labuschagne",
+        "leadWktTakerEng": "Ben Stokes",
+        "leadWktTakerAus": "Mitchell Starc",
+        "tiebreaker": 250
+    },
+    {
+        "id": "jb",
+        "name": "JB",
+        "seriesScore": "2-2",
+        "seriesWinner": "Draw",
+        "leadRunScorerEng": "Harry Brook",
+        "leadRunScorerAus": "Steve Smith",
+        "leadWktTakerEng": "Gus Atkinson",
+        "leadWktTakerAus": "Scott Boland",
+        "tiebreaker": 242
+    },
+    {
+        "id": "rohan2",
+        "name": "Rohan",
+        "seriesScore": "2-2",
+        "seriesWinner": "Draw",
+        "leadRunScorerEng": "Jamie Smith",
+        "leadRunScorerAus": "Marnus Labuschagne",
+        "leadWktTakerEng": "Josh Tongue",
+        "leadWktTakerAus": "Mitchell Starc",
+        "tiebreaker": 240
+    },
+    {
+        "id": "ben_mclean",
+        "name": "Ben McLean",
+        "seriesScore": "3-1",
+        "seriesWinner": "Australia",
+        "leadRunScorerEng": "Joe Root",
+        "leadRunScorerAus": "Steve Smith",
+        "leadWktTakerEng": "Ben Stokes",
+        "leadWktTakerAus": "Mitchell Starc",
+        "tiebreaker": 401
+    },
+    {
+        "id": "joe_moorman",
+        "name": "Joe Moorman",
+        "seriesScore": "4-0",
+        "seriesWinner": "England",
+        "leadRunScorerEng": "Zac Crawley",
+        "leadRunScorerAus": "Marnus Labuschagne",
+        "leadWktTakerEng": "Jofra Archer",
+        "leadWktTakerAus": "Nathan Lyon",
+        "tiebreaker": 312
+    },
+    {
+        "id": "jimmy2",
+        "name": "Oli",
+        "seriesScore": "2-2",
+        "seriesWinner": "Draw",
+        "leadRunScorerEng": "Ben Stokes",
+        "leadRunScorerAus": "Travis Head",
+        "leadWktTakerEng": "Jofra Archer",
+        "leadWktTakerAus": "Mitchell Starc",
+        "tiebreaker": 308
+    },
+    {
+        "id": "tim_pope",
+        "name": "Tim Pope",
+        "seriesScore": "3-1",
+        "seriesWinner": "England",
+        "leadRunScorerEng": "Ben Duckett",
+        "leadRunScorerAus": "Marnus Labuschagne",
+        "leadWktTakerEng": "Jofra Archer",
+        "leadWktTakerAus": "Mitchell Starc",
+        "tiebreaker": 317
+    },
+    {
+        "id": "will",
+        "name": "Will",
+        "seriesScore": "3-1",
+        "seriesWinner": "Australia",
+        "leadRunScorerEng": "Ben Duckett",
+        "leadRunScorerAus": "Steve Smith",
+        "leadWktTakerEng": "Jofra Archer",
+        "leadWktTakerAus": "Mitchell Starc",
+        "tiebreaker": 195
+    },
+    {
+        "id": "peter_sexton",
+        "name": "Peter Sexton",
+        "seriesScore": "3-1",
+        "seriesWinner": "Australia",
+        "leadRunScorerEng": "Joe Root",
+        "leadRunScorerAus": "Steve Smith",
+        "leadWktTakerEng": "Mark Wood",
+        "leadWktTakerAus": "Mitchell Starc",
+        "tiebreaker": 362
+    },
+    {
+        "id": "mike_henshall",
+        "name": "Mike Henshall",
+        "seriesScore": "3-1",
+        "seriesWinner": "Australia",
+        "leadRunScorerEng": "Joe Root",
+        "leadRunScorerAus": "Travis Head",
+        "leadWktTakerEng": "Gus Atkinson",
+        "leadWktTakerAus": "Mitchell Starc",
+        "tiebreaker": 326
+    },
+    {
+        "id": "jonty",
+        "name": "Jonty",
+        "seriesScore": "4-1",
+        "seriesWinner": "Australia",
+        "leadRunScorerEng": "Harry Brook",
+        "leadRunScorerAus": "Travis Head",
+        "leadWktTakerEng": "Ben Stokes",
+        "leadWktTakerAus": "Nathan Lyon",
+        "tiebreaker": 232
+    },
+    {
+        "id": "hamza_eby",
+        "name": "Hamza Eby",
+        "seriesScore": "3-2",
+        "seriesWinner": "Australia",
+        "leadRunScorerEng": "Joe Root",
+        "leadRunScorerAus": "Steve Smith",
+        "leadWktTakerEng": "Mark Wood",
+        "leadWktTakerAus": "Mitchell Starc",
+        "tiebreaker": 365
+    },
+    {
+        "id": "kenan_alev",
+        "name": "Kenan Alev",
+        "seriesScore": "3-1",
+        "seriesWinner": "Australia",
+        "leadRunScorerEng": "Joe Root",
+        "leadRunScorerAus": "Steve Smith",
+        "leadWktTakerEng": "Jofra Archer",
+        "leadWktTakerAus": "Mitchell Starc",
+        "tiebreaker": 410
+    },
+    {
+        "id": "tom_waddington",
+        "name": "Tom Waddington",
+        "seriesScore": "3-1",
+        "seriesWinner": "England",
+        "leadRunScorerEng": "Joe Root",
+        "leadRunScorerAus": "Steve Smith",
+        "leadWktTakerEng": "Ben Stokes",
+        "leadWktTakerAus": "Mitchell Starc",
+        "tiebreaker": 312
+    },
+    {
+        "id": "azza_mondo",
+        "name": "Azza Mondo",
+        "seriesScore": "3-1",
+        "seriesWinner": "Australia",
+        "leadRunScorerEng": "Harry Brook",
+        "leadRunScorerAus": "Travis Head",
+        "leadWktTakerEng": "Gus Atkinson",
+        "leadWktTakerAus": "Nathan Lyon",
+        "tiebreaker": 289
     }
 ]
