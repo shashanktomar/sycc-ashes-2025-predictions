@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-22T08:06:44.844Z",
+  "lastUpdated": "2025-11-22T08:13:31.267Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -9,11 +9,11 @@
     "108787": {
       "matchId": "108787",
       "date": "2025-11-22",
-      "status": "Day 2: 3rd Session - Australia need 146 runs",
-      "result": "Day 2: 3rd Session - Australia need 146 runs",
+      "status": "Day 2: 3rd Session - Australia need 130 runs",
+      "result": "Day 2: 3rd Session - Australia need 130 runs",
       "scores": {
         "eng": "172-10 & 164-10",
-        "aus": "132-10 & 59-0"
+        "aus": "132-10 & 75-1"
       },
       "playerStats": {
         "eng": {
@@ -98,7 +98,7 @@
             },
             "Brydon Carse": {
               "runs": 20,
-              "wickets": 0
+              "wickets": 1
             },
             "Jofra Archer": {
               "runs": 5,
@@ -175,11 +175,11 @@
               "wickets": 0
             },
             "Travis Head": {
-              "runs": 38,
+              "runs": 49,
               "wickets": 0
             },
             "Jake Weatherald": {
-              "runs": 19,
+              "runs": 23,
               "wickets": 0
             }
           }

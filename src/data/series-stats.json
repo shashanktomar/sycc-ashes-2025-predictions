@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-22T08:06:46.033Z",
+  "lastUpdated": "2025-11-22T08:13:31.900Z",
   "actualTiebreaker": 172,
   "topRunScorers": {
     "eng": [
@@ -27,7 +27,7 @@
     "aus": [
       {
         "name": "Travis Head",
-        "runs": 38
+        "runs": 49
       },
       {
         "name": "Alex Carey",
@@ -38,12 +38,12 @@
         "runs": 24
       },
       {
-        "name": "Head",
-        "runs": 21
+        "name": "Jake Weatherald",
+        "runs": 23
       },
       {
-        "name": "Jake Weatherald",
-        "runs": 19
+        "name": "Head",
+        "runs": 21
       }
     ]
   },
@@ -55,7 +55,7 @@
       },
       {
         "name": "Brydon Carse",
-        "wickets": 3
+        "wickets": 4
       },
       {
         "name": "Jofra Archer",
