@@ -6,6 +6,9 @@ on:
     - cron: '*/15 * * * *'
   workflow_dispatch: # Allow manual trigger
 
+permissions:
+  contents: write  # Allow pushing changes back to the repository
+
 jobs:
   update-scores:
     runs-on: ubuntu-latest
