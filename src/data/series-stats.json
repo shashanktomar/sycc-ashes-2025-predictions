@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-22T07:14:28.026Z",
+  "lastUpdated": "2025-11-22T07:25:34.313Z",
   "actualTiebreaker": 172,
   "topRunScorers": {
     "eng": [
@@ -12,16 +12,16 @@
         "runs": 52
       },
       {
+        "name": "Duckett",
+        "runs": 49
+      },
+      {
         "name": "Jamie Smith",
         "runs": 48
       },
       {
         "name": "Gus Atkinson",
         "runs": 38
-      },
-      {
-        "name": "Ben Duckett",
-        "runs": 28
       }
     ],
     "aus": [
@@ -80,7 +80,7 @@
         "wickets": 5
       },
       {
-        "name": "Scott Boland",
+        "name": "Boland",
         "wickets": 4
       },
       {
@@ -88,7 +88,7 @@
         "wickets": 1
       },
       {
-        "name": "Boland",
+        "name": "Lyon",
         "wickets": 0
       }
     ]
