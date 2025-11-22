@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-22T08:24:47.291Z",
+  "lastUpdated": "2025-11-22T08:38:17.885Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -9,11 +9,11 @@
     "108787": {
       "matchId": "108787",
       "date": "2025-11-22",
-      "status": "Day 2: 3rd Session - Australia need 122 runs",
-      "result": "Day 2: 3rd Session - Australia need 122 runs",
+      "status": "Day 2: 3rd Session - Australia need 116 runs",
+      "result": "Day 2: 3rd Session - Australia need 116 runs",
       "scores": {
         "eng": "172-10 & 164-10",
-        "aus": "132-10 & 83-1"
+        "aus": "132-10 & 89-1"
       },
       "playerStats": {
         "eng": {
@@ -107,6 +107,10 @@
             "Mark Wood": {
               "runs": 4,
               "wickets": 0
+            },
+            "Ben Stokes (c)": {
+              "runs": 0,
+              "wickets": 0
             }
           }
         },
@@ -175,7 +179,7 @@
               "wickets": 0
             },
             "Travis Head": {
-              "runs": 50,
+              "runs": 51,
               "wickets": 0
             },
             "Jake Weatherald": {
@@ -183,7 +187,7 @@
               "wickets": 0
             },
             "Marnus Labuschagne": {
-              "runs": 7,
+              "runs": 12,
               "wickets": 0
             }
           }
