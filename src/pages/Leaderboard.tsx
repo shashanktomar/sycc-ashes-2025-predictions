@@ -112,8 +112,8 @@ const StatsView: React.FC = () => {
                   <tr
                     key={`runs-${player.team}-${index}`}
                     className={`border-b border-gray-100 ${player.team === 'eng'
-                        ? 'bg-blue-50/30 hover:bg-blue-50/50'
-                        : 'bg-yellow-50/30 hover:bg-yellow-50/50'
+                      ? 'bg-blue-50/30 hover:bg-blue-50/50'
+                      : 'bg-yellow-50/30 hover:bg-yellow-50/50'
                       } transition-colors`}
                   >
                     <td className="p-3">
@@ -152,8 +152,8 @@ const StatsView: React.FC = () => {
                   <tr
                     key={`wickets-${player.team}-${index}`}
                     className={`border-b border-gray-100 ${player.team === 'eng'
-                        ? 'bg-blue-50/30 hover:bg-blue-50/50'
-                        : 'bg-yellow-50/30 hover:bg-yellow-50/50'
+                      ? 'bg-blue-50/30 hover:bg-blue-50/50'
+                      : 'bg-yellow-50/30 hover:bg-yellow-50/50'
                       } transition-colors`}
                   >
                     <td className="p-3">
@@ -258,7 +258,7 @@ const LeaderboardView: React.FC = () => {
     actualTiebreaker = statsData.actualTiebreaker;
   }
 
-  const sortedParticipants: ParticipantWithScore[] = participants.map(p => {
+  const sortedParticipantsRaw = participants.map(p => {
     let points = 0;
 
     if (seriesData && statsData) {
@@ -296,13 +296,19 @@ const LeaderboardView: React.FC = () => {
     }
     // Secondary Sort: Tiebreaker Difference (Asc) - Closest to actual wins
     return a.tiebreakerDiff - b.tiebreakerDiff;
-  }).map((p, index, arr) => {
-    // Handle rank ties (only if points AND tiebreaker are same)
-    if (index > 0 && p.totalPoints === arr[index - 1].totalPoints && p.tiebreakerDiff === arr[index - 1].tiebreakerDiff) {
-      return { ...p, rank: arr[index - 1].rank };
-    }
-    return { ...p, rank: index + 1 };
   });
+
+  // Assign ranks (handling ties)
+  const rankedParticipants: ParticipantWithScore[] = [];
+  sortedParticipantsRaw.forEach((p, index) => {
+    let rank = index + 1;
+    if (index > 0 && p.totalPoints === sortedParticipantsRaw[index - 1].totalPoints && p.tiebreakerDiff === sortedParticipantsRaw[index - 1].tiebreakerDiff) {
+      rank = rankedParticipants[index - 1].rank;
+    }
+    rankedParticipants.push({ ...p, rank });
+  });
+
+  const sortedParticipants = rankedParticipants;
 
   if (loading) {
     return (
