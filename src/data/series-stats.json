@@ -1,27 +1,27 @@
 {
-  "lastUpdated": "2025-11-21T23:23:43.251Z",
+  "lastUpdated": "2025-11-22T07:14:28.026Z",
   "actualTiebreaker": 172,
   "topRunScorers": {
     "eng": [
+      {
+        "name": "Ollie Pope",
+        "runs": 79
+      },
       {
         "name": "Harry Brook",
         "runs": 52
       },
       {
-        "name": "Ollie Pope",
-        "runs": 46
-      },
-      {
         "name": "Jamie Smith",
-        "runs": 33
+        "runs": 48
       },
       {
-        "name": "Duckett",
-        "runs": 21
+        "name": "Gus Atkinson",
+        "runs": 38
       },
       {
-        "name": "Stokes",
-        "runs": 6
+        "name": "Ben Duckett",
+        "runs": 28
       }
     ],
     "aus": [
@@ -30,11 +30,11 @@
         "runs": 26
       },
       {
-        "name": "Cameron Green",
+        "name": "Green",
         "runs": 24
       },
       {
-        "name": "Travis Head",
+        "name": "Head",
         "runs": 21
       },
       {
@@ -50,12 +50,12 @@
   "topWicketTakers": {
     "eng": [
       {
-        "name": "Ben Stokes",
+        "name": "Stokes",
         "wickets": 5
       },
       {
         "name": "Brydon Carse",
-        "wickets": 2
+        "wickets": 3
       },
       {
         "name": "Jofra Archer",
@@ -73,11 +73,15 @@
     "aus": [
       {
         "name": "Mitchell Starc",
-        "wickets": 7
+        "wickets": 10
       },
       {
         "name": "Brendan Doggett",
-        "wickets": 2
+        "wickets": 5
+      },
+      {
+        "name": "Scott Boland",
+        "wickets": 4
       },
       {
         "name": "Green",
@@ -85,10 +89,6 @@
       },
       {
         "name": "Boland",
-        "wickets": 0
-      },
-      {
-        "name": "Lyon",
         "wickets": 0
       }
     ]

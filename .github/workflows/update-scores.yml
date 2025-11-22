@@ -71,6 +71,7 @@ jobs:
         if: steps.check_match_day.outputs.is_match_day == 'true'
         env:
           CRICKET_API_KEY: ${{ secrets.CRICKET_API_KEY }}
+          MATCH_URL: ${{ vars.MATCH_URL }}
         run: pnpm dlx tsx scripts/update-scores.ts
 
       - name: Run generate stats script

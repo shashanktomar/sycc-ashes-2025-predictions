@@ -7,12 +7,16 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const DATA_FILE_PATH = path.join(__dirname, '../src/data/series-data.json');
-const CRICBUZZ_URL = 'https://www.cricbuzz.com/live-cricket-scorecard/108787/aus-vs-eng-1st-test-the-ashes-2025-26';
 
 // Types
 interface PlayerStats {
     runs: number;
     wickets: number;
+}
+
+interface InningsStats {
+    innings1?: Record<string, PlayerStats>;
+    innings2?: Record<string, PlayerStats>;
 }
 
 interface MatchData {
@@ -22,8 +26,8 @@ interface MatchData {
     result: string;
     scores: { eng: string; aus: string };
     playerStats: {
-        eng: Record<string, PlayerStats>;
-        aus: Record<string, PlayerStats>;
+        eng: InningsStats;
+        aus: InningsStats;
     };
 }
 
@@ -73,13 +77,19 @@ async function scrapeCricbuzz(url: string): Promise<MatchData | null> {
 
         // Initialize Data
         const playerStats = {
-            eng: {} as Record<string, PlayerStats>,
-            aus: {} as Record<string, PlayerStats>
+            eng: { innings1: {}, innings2: {} } as InningsStats,
+            aus: { innings1: {}, innings2: {} } as InningsStats
         };
 
         const scores = {
             eng: [] as string[],
             aus: [] as string[]
+        };
+
+        // Track innings count per team
+        const inningsCount = {
+            eng: 0,
+            aus: 0
         };
 
         // Iterate over innings
@@ -101,8 +111,17 @@ async function scrapeCricbuzz(url: string): Promise<MatchData | null> {
 
             if (!teamKey) return;
 
+            // Increment innings count for this team
+            inningsCount[teamKey]++;
+            const inningsKey = inningsCount[teamKey] === 1 ? 'innings1' : 'innings2';
+
             // Add score
             scores[teamKey].push(scoreRaw);
+
+            // Initialize innings object if needed
+            if (!playerStats[teamKey][inningsKey]) {
+                playerStats[teamKey][inningsKey] = {};
+            }
 
             // Parse Scorecard for this inning
             const scorecardId = `scard-${inningId}`;
@@ -118,10 +137,11 @@ async function scrapeCricbuzz(url: string): Promise<MatchData | null> {
                 const runsText = $(row).children().eq(1).text().trim();
                 const runs = parseInt(runsText, 10) || 0;
 
-                if (!playerStats[teamKey!][playerName]) {
-                    playerStats[teamKey!][playerName] = { runs: 0, wickets: 0 };
+                // Store stats for this innings only (no aggregation)
+                if (!playerStats[teamKey!][inningsKey]![playerName]) {
+                    playerStats[teamKey!][inningsKey]![playerName] = { runs: 0, wickets: 0 };
                 }
-                playerStats[teamKey!][playerName].runs += runs;
+                playerStats[teamKey!][inningsKey]![playerName].runs = runs;
             });
 
             // Bowling Stats (Opposing Team)
@@ -136,10 +156,20 @@ async function scrapeCricbuzz(url: string): Promise<MatchData | null> {
                 const wicketsText = $(row).children().eq(4).text().trim();
                 const wickets = parseInt(wicketsText, 10) || 0;
 
-                if (!playerStats[bowlingTeamKey][playerName]) {
-                    playerStats[bowlingTeamKey][playerName] = { runs: 0, wickets: 0 };
+                // Determine which innings this is for the bowling team
+                // The bowling team's innings counter hasn't been incremented yet for their batting
+                // So we need to figure out which innings slot to use
+                const bowlingInningsKey = inningsKey; // Use same innings key as batting team
+
+                if (!playerStats[bowlingTeamKey][bowlingInningsKey]) {
+                    playerStats[bowlingTeamKey][bowlingInningsKey] = {};
                 }
-                playerStats[bowlingTeamKey][playerName].wickets += wickets;
+
+                if (!playerStats[bowlingTeamKey][bowlingInningsKey]![playerName]) {
+                    playerStats[bowlingTeamKey][bowlingInningsKey]![playerName] = { runs: 0, wickets: 0 };
+                }
+                // Add wickets (in case a player bowls in multiple innings)
+                playerStats[bowlingTeamKey][bowlingInningsKey]![playerName].wickets += wickets;
             });
         });
 
@@ -162,12 +192,16 @@ async function scrapeCricbuzz(url: string): Promise<MatchData | null> {
 }
 
 async function updateScores() {
-    const url = process.argv[2];
+    // Read URL from environment variable or command-line argument
+    const url = process.env.MATCH_URL || process.argv[2];
     if (!url) {
-        console.error('Please provide a Cricbuzz URL as an argument.');
-        console.error('Usage: pnpm tsx scripts/update-match.ts <URL>');
+        console.error('Please provide a Cricbuzz URL.');
+        console.error('Either set MATCH_URL environment variable or pass URL as argument.');
+        console.error('Usage: pnpm tsx scripts/update-scores.ts <URL>');
         process.exit(1);
     }
+
+    console.log(`Using match URL: ${url}`);
 
     try {
         // 1. Read existing data

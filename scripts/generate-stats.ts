@@ -14,6 +14,11 @@ interface PlayerStats {
     wickets: number;
 }
 
+interface InningsStats {
+    innings1?: Record<string, PlayerStats>;
+    innings2?: Record<string, PlayerStats>;
+}
+
 interface MatchData {
     matchId: string;
     date: string;
@@ -21,8 +26,8 @@ interface MatchData {
     result: string;
     scores: { eng: string; aus: string };
     playerStats: {
-        eng: Record<string, PlayerStats>;
-        aus: Record<string, PlayerStats>;
+        eng: InningsStats;
+        aus: InningsStats;
     };
 }
 
@@ -65,27 +70,37 @@ async function generateStats() {
         // Iterate over all matches to aggregate
         if (seriesData.matches) {
             Object.values(seriesData.matches).forEach((m: MatchData) => {
-                // Aggregate England Stats
-                if (m.playerStats && m.playerStats.eng) {
-                    Object.entries(m.playerStats.eng).forEach(([player, stats]) => {
-                        const normalizedName = normalizePlayerName(player);
-                        if (!aggregated.eng.runs[normalizedName]) aggregated.eng.runs[normalizedName] = 0;
-                        if (!aggregated.eng.wickets[normalizedName]) aggregated.eng.wickets[normalizedName] = 0;
-                        aggregated.eng.runs[normalizedName] += stats.runs;
-                        aggregated.eng.wickets[normalizedName] += stats.wickets;
-                    });
-                }
+                // Helper to aggregate stats from innings
+                const aggregateTeamStats = (teamKey: 'eng' | 'aus') => {
+                    const teamStats = m.playerStats?.[teamKey];
+                    if (!teamStats) return;
 
-                // Aggregate Australia Stats
-                if (m.playerStats && m.playerStats.aus) {
-                    Object.entries(m.playerStats.aus).forEach(([player, stats]) => {
-                        const normalizedName = normalizePlayerName(player);
-                        if (!aggregated.aus.runs[normalizedName]) aggregated.aus.runs[normalizedName] = 0;
-                        if (!aggregated.aus.wickets[normalizedName]) aggregated.aus.wickets[normalizedName] = 0;
-                        aggregated.aus.runs[normalizedName] += stats.runs;
-                        aggregated.aus.wickets[normalizedName] += stats.wickets;
-                    });
-                }
+                    // Aggregate from innings1
+                    if (teamStats.innings1) {
+                        Object.entries(teamStats.innings1).forEach(([player, stats]) => {
+                            const normalizedName = normalizePlayerName(player);
+                            if (!aggregated[teamKey].runs[normalizedName]) aggregated[teamKey].runs[normalizedName] = 0;
+                            if (!aggregated[teamKey].wickets[normalizedName]) aggregated[teamKey].wickets[normalizedName] = 0;
+                            aggregated[teamKey].runs[normalizedName] += stats.runs;
+                            aggregated[teamKey].wickets[normalizedName] += stats.wickets;
+                        });
+                    }
+
+                    // Aggregate from innings2
+                    if (teamStats.innings2) {
+                        Object.entries(teamStats.innings2).forEach(([player, stats]) => {
+                            const normalizedName = normalizePlayerName(player);
+                            if (!aggregated[teamKey].runs[normalizedName]) aggregated[teamKey].runs[normalizedName] = 0;
+                            if (!aggregated[teamKey].wickets[normalizedName]) aggregated[teamKey].wickets[normalizedName] = 0;
+                            aggregated[teamKey].runs[normalizedName] += stats.runs;
+                            aggregated[teamKey].wickets[normalizedName] += stats.wickets;
+                        });
+                    }
+                };
+
+                // Aggregate both teams
+                aggregateTeamStats('eng');
+                aggregateTeamStats('aus');
             });
         }
 
