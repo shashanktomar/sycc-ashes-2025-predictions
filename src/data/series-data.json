@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-22T07:48:29.685Z",
+  "lastUpdated": "2025-11-22T08:06:44.844Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -9,11 +9,11 @@
     "108787": {
       "matchId": "108787",
       "date": "2025-11-22",
-      "status": "Day 2: 3rd Session - Australia need 177 runs",
-      "result": "Day 2: 3rd Session - Australia need 177 runs",
+      "status": "Day 2: 3rd Session - Australia need 146 runs",
+      "result": "Day 2: 3rd Session - Australia need 146 runs",
       "scores": {
         "eng": "172-10 & 164-10",
-        "aus": "132-10 & 28-0"
+        "aus": "132-10 & 59-0"
       },
       "playerStats": {
         "eng": {
@@ -132,7 +132,7 @@
               "runs": 24,
               "wickets": 1
             },
-            "Weatherald": {
+            "Jake Weatherald": {
               "runs": 0,
               "wickets": 0
             },
@@ -175,11 +175,11 @@
               "wickets": 0
             },
             "Travis Head": {
-              "runs": 16,
+              "runs": 38,
               "wickets": 0
             },
             "Jake Weatherald": {
-              "runs": 12,
+              "runs": 19,
               "wickets": 0
             }
           }
