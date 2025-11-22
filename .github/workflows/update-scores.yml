@@ -2,7 +2,8 @@ name: Update Cricket Scores
 
 on:
   schedule:
-    - cron: '0 * * * *' # Run every hour
+    # Run every 15 minutes during Ashes match days
+    - cron: '*/15 * * * *'
   workflow_dispatch: # Allow manual trigger
 
 jobs:
@@ -13,27 +14,73 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      - name: Check if today is a match day
+        id: check_match_day
+        run: |
+          # Get current date in UTC (GitHub Actions runs in UTC)
+          CURRENT_DATE=$(date -u +%Y%m%d)
+
+          # Ashes 2025-26 match dates (in UTC to match GitHub Actions timezone)
+          # 1st Test: Perth, Nov 21-25, 2025
+          # 2nd Test: Brisbane, Dec 4-8, 2025
+          # 3rd Test: Adelaide, Dec 17-21, 2025
+          # 4th Test: Melbourne, Dec 26-30, 2025
+          # 5th Test: Sydney, Jan 4-8, 2026
+
+          IS_MATCH_DAY=false
+
+          # Check if current date falls within any match period
+          if [ "$CURRENT_DATE" -ge "20251121" ] && [ "$CURRENT_DATE" -le "20251125" ]; then
+            IS_MATCH_DAY=true
+            echo "Match Day: 1st Test (Perth)"
+          elif [ "$CURRENT_DATE" -ge "20251204" ] && [ "$CURRENT_DATE" -le "20251208" ]; then
+            IS_MATCH_DAY=true
+            echo "Match Day: 2nd Test (Brisbane)"
+          elif [ "$CURRENT_DATE" -ge "20251217" ] && [ "$CURRENT_DATE" -le "20251221" ]; then
+            IS_MATCH_DAY=true
+            echo "Match Day: 3rd Test (Adelaide)"
+          elif [ "$CURRENT_DATE" -ge "20251226" ] && [ "$CURRENT_DATE" -le "20251230" ]; then
+            IS_MATCH_DAY=true
+            echo "Match Day: 4th Test (Melbourne)"
+          elif [ "$CURRENT_DATE" -ge "20260104" ] && [ "$CURRENT_DATE" -le "20260108" ]; then
+            IS_MATCH_DAY=true
+            echo "Match Day: 5th Test (Sydney)"
+          else
+            echo "Not a match day - skipping update"
+          fi
+
+          echo "is_match_day=$IS_MATCH_DAY" >> $GITHUB_OUTPUT
+
       - name: Setup Node.js
+        if: steps.check_match_day.outputs.is_match_day == 'true'
         uses: actions/setup-node@v3
         with:
           node-version: '18'
 
       - name: Install pnpm
+        if: steps.check_match_day.outputs.is_match_day == 'true'
         uses: pnpm/action-setup@v2
         with:
           version: 8
 
       - name: Install dependencies
+        if: steps.check_match_day.outputs.is_match_day == 'true'
         run: pnpm install
 
-      - name: Run update script
+      - name: Run update scores script
+        if: steps.check_match_day.outputs.is_match_day == 'true'
         env:
           CRICKET_API_KEY: ${{ secrets.CRICKET_API_KEY }}
         run: pnpm dlx tsx scripts/update-scores.ts
 
+      - name: Run generate stats script
+        if: steps.check_match_day.outputs.is_match_day == 'true'
+        run: pnpm dlx tsx scripts/generate-stats.ts
+
       - name: Commit and push changes
+        if: steps.check_match_day.outputs.is_match_day == 'true'
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add src/data/series-data.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update cricket scores [skip ci]" && git push)
+          git add src/data/series-data.json src/data/series-stats.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update cricket scores and stats [skip ci]" && git push)
