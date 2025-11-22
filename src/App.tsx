@@ -1,8 +1,12 @@
+import { Analytics } from '@vercel/analytics/react'
 import Leaderboard from './pages/Leaderboard'
 
 function App() {
   return (
-    <Leaderboard />
+    <>
+      <Leaderboard />
+      <Analytics />
+    </>
   )
 }
 
