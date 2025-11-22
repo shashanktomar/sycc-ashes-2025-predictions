@@ -7,7 +7,30 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const DATA_FILE_PATH = path.join(__dirname, '../src/data/series-data.json');
-const CRICBUZZ_URL = 'https://www.cricbuzz.com/live-cricket-scorecard/108787/aus-vs-eng-1st-test-the-ashes-2025-26';
+
+// Ashes 2025-26 match URLs (all matches)
+const MATCH_URLS: Record<string, { dates: [string, string]; url: string }> = {
+    '1st Test': {
+        dates: ['2025-11-21', '2025-11-25'],
+        url: 'https://www.cricbuzz.com/live-cricket-scorecard/108787/aus-vs-eng-1st-test-the-ashes-2025-26'
+    },
+    '2nd Test': {
+        dates: ['2025-12-04', '2025-12-08'],
+        url: 'https://www.cricbuzz.com/live-cricket-scorecard/108788/aus-vs-eng-2nd-test-the-ashes-2025-26'
+    },
+    '3rd Test': {
+        dates: ['2025-12-17', '2025-12-21'],
+        url: 'https://www.cricbuzz.com/live-cricket-scorecard/108789/aus-vs-eng-3rd-test-the-ashes-2025-26'
+    },
+    '4th Test': {
+        dates: ['2025-12-26', '2025-12-30'],
+        url: 'https://www.cricbuzz.com/live-cricket-scorecard/108790/aus-vs-eng-4th-test-the-ashes-2025-26'
+    },
+    '5th Test': {
+        dates: ['2026-01-04', '2026-01-08'],
+        url: 'https://www.cricbuzz.com/live-cricket-scorecard/108791/aus-vs-eng-5th-test-the-ashes-2025-26'
+    }
+};
 
 // Types
 interface PlayerStats {
@@ -38,6 +61,22 @@ interface SeriesData {
 function getMatchIdFromUrl(url: string): string | null {
     const match = url.match(/live-cricket-scorecard\/(\d+)\//);
     return match ? match[1] : null;
+}
+
+// Helper to get current match URL based on date
+function getCurrentMatchUrl(currentDate?: Date): string | null {
+    const today = currentDate || new Date();
+    const todayStr = today.toISOString().split('T')[0]; // YYYY-MM-DD format
+
+    for (const [matchName, matchInfo] of Object.entries(MATCH_URLS)) {
+        const [startDate, endDate] = matchInfo.dates;
+        if (todayStr >= startDate && todayStr <= endDate) {
+            console.log(`Auto-detected match: ${matchName} (${startDate} to ${endDate})`);
+            return matchInfo.url;
+        }
+    }
+
+    return null;
 }
 
 async function scrapeCricbuzz(url: string): Promise<MatchData | null> {
@@ -162,11 +201,19 @@ async function scrapeCricbuzz(url: string): Promise<MatchData | null> {
 }
 
 async function updateScores() {
-    const url = process.argv[2];
+    // Try to get URL from command line argument, otherwise auto-detect based on date
+    let url = process.argv[2];
+
     if (!url) {
-        console.error('Please provide a Cricbuzz URL as an argument.');
-        console.error('Usage: pnpm tsx scripts/update-match.ts <URL>');
-        process.exit(1);
+        console.log('No URL provided, attempting to auto-detect current match...');
+        url = getCurrentMatchUrl() || '';
+
+        if (!url) {
+            console.error('No URL provided and could not auto-detect current match.');
+            console.error('No match is scheduled for today.');
+            console.error('Usage: pnpm tsx scripts/update-scores.ts [URL]');
+            process.exit(1);
+        }
     }
 
     try {
