@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-22T09:05:27.172Z",
+  "lastUpdated": "2025-11-22T09:07:11.000Z",
   "actualTiebreaker": 172,
   "topRunScorers": {
     "eng": [
@@ -12,7 +12,7 @@
         "runs": 52
       },
       {
-        "name": "Duckett",
+        "name": "Ben Duckett",
         "runs": 49
       },
       {
@@ -27,30 +27,30 @@
     "aus": [
       {
         "name": "Travis Head",
-        "runs": 95
+        "runs": 116
+      },
+      {
+        "name": "Marnus Labuschagne",
+        "runs": 28
       },
       {
         "name": "Alex Carey",
         "runs": 26
       },
       {
-        "name": "Green",
+        "name": "Cameron Green",
         "runs": 24
       },
       {
         "name": "Jake Weatherald",
         "runs": 23
-      },
-      {
-        "name": "Head",
-        "runs": 21
       }
     ]
   },
   "topWicketTakers": {
     "eng": [
       {
-        "name": "Stokes",
+        "name": "Ben Stokes",
         "wickets": 5
       },
       {
@@ -66,7 +66,7 @@
         "wickets": 0
       },
       {
-        "name": "Duckett",
+        "name": "Ben Duckett",
         "wickets": 0
       }
     ],
@@ -80,15 +80,15 @@
         "wickets": 5
       },
       {
-        "name": "Boland",
+        "name": "Scott Boland",
         "wickets": 4
       },
       {
-        "name": "Green",
+        "name": "Cameron Green",
         "wickets": 1
       },
       {
-        "name": "Lyon",
+        "name": "Nathan Lyon",
         "wickets": 0
       }
     ]

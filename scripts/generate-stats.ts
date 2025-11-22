@@ -50,9 +50,37 @@ interface AggregatedStats {
     };
 }
 
+const PLAYERS_FILE_PATH = path.join(__dirname, '../src/data/players.json');
+
 // Helper to normalize player names by removing designations like (c), (wk)
-function normalizePlayerName(name: string): string {
-    return name.replace(/\s*\([^)]*\)\s*/g, '').trim();
+// and dynamically mapping to official player names
+function normalizePlayerName(name: string, teamPlayers: Set<string>): string {
+    // 1. Remove designations like (c), (wk)
+    let cleanName = name.replace(/\s*\([^)]*\)\s*/g, '').trim();
+
+    // 2. Check for exact match in official players
+    if (teamPlayers.has(cleanName)) {
+        return cleanName;
+    }
+
+    // 3. Special manual overrides for known mismatches
+    if (cleanName === 'Steven Smith') return 'Steve Smith';
+    if (cleanName === 'Marnus') return 'Marnus Labuschagne';
+    if (cleanName === 'Pat') return 'Pat Cummins';
+    if (cleanName === 'Head') return 'Travis Head'; // Explicit override for common short name
+
+    // 4. Check if cleanName is a substring of an official name (e.g. "Stokes" -> "Ben Stokes")
+    // Only map if there's exactly one match to avoid ambiguity
+    const matches = Array.from(teamPlayers).filter(official =>
+        official.toLowerCase().includes(cleanName.toLowerCase()) ||
+        cleanName.toLowerCase().includes(official.toLowerCase())
+    );
+
+    if (matches.length === 1) {
+        return matches[0];
+    }
+
+    return cleanName;
 }
 
 async function generateStats() {
@@ -61,7 +89,16 @@ async function generateStats() {
         const fileContent = await fs.readFile(DATA_FILE_PATH, 'utf-8');
         const seriesData: SeriesData = JSON.parse(fileContent);
 
-        // 2. Aggregate Stats
+        // 2. Read official players list
+        const playersContent = await fs.readFile(PLAYERS_FILE_PATH, 'utf-8');
+        const playersData: { eng: string[], aus: string[] } = JSON.parse(playersContent);
+
+        const officialPlayers = {
+            eng: new Set(playersData.eng),
+            aus: new Set(playersData.aus)
+        };
+
+        // 3. Aggregate Stats
         const aggregated = {
             eng: { runs: {} as Record<string, number>, wickets: {} as Record<string, number> },
             aus: { runs: {} as Record<string, number>, wickets: {} as Record<string, number> }
@@ -78,7 +115,7 @@ async function generateStats() {
                     // Aggregate from innings1
                     if (teamStats.innings1) {
                         Object.entries(teamStats.innings1).forEach(([player, stats]) => {
-                            const normalizedName = normalizePlayerName(player);
+                            const normalizedName = normalizePlayerName(player, officialPlayers[teamKey]);
                             if (!aggregated[teamKey].runs[normalizedName]) aggregated[teamKey].runs[normalizedName] = 0;
                             if (!aggregated[teamKey].wickets[normalizedName]) aggregated[teamKey].wickets[normalizedName] = 0;
                             aggregated[teamKey].runs[normalizedName] += stats.runs;
@@ -89,7 +126,7 @@ async function generateStats() {
                     // Aggregate from innings2
                     if (teamStats.innings2) {
                         Object.entries(teamStats.innings2).forEach(([player, stats]) => {
-                            const normalizedName = normalizePlayerName(player);
+                            const normalizedName = normalizePlayerName(player, officialPlayers[teamKey]);
                             if (!aggregated[teamKey].runs[normalizedName]) aggregated[teamKey].runs[normalizedName] = 0;
                             if (!aggregated[teamKey].wickets[normalizedName]) aggregated[teamKey].wickets[normalizedName] = 0;
                             aggregated[teamKey].runs[normalizedName] += stats.runs;
