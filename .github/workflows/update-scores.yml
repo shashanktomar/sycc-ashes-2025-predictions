@@ -24,7 +24,7 @@ jobs:
           CURRENT_DATE=$(date -u +%Y%m%d)
 
           # Ashes 2025-26 match dates (in UTC to match GitHub Actions timezone)
-          # 1st Test: Perth, Nov 21-25, 2025
+          # 1st Test: Perth, Nov 21-22, 2025 (Finished in 2 days)
           # 2nd Test: Brisbane, Dec 4-8, 2025
           # 3rd Test: Adelaide, Dec 17-21, 2025
           # 4th Test: Melbourne, Dec 26-30, 2025
@@ -33,7 +33,7 @@ jobs:
           IS_MATCH_DAY=false
 
           # Check if current date falls within any match period
-          if [ "$CURRENT_DATE" -ge "20251121" ] && [ "$CURRENT_DATE" -le "20251125" ]; then
+          if [ "$CURRENT_DATE" -ge "20251121" ] && [ "$CURRENT_DATE" -le "20251122" ]; then
             IS_MATCH_DAY=true
             echo "Match Day: 1st Test (Perth)"
           elif [ "$CURRENT_DATE" -ge "20251204" ] && [ "$CURRENT_DATE" -le "20251208" ]; then
