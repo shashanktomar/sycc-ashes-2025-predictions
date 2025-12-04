@@ -1,11 +1,15 @@
 {
-  "lastUpdated": "2025-12-04T05:49:31.775Z",
+  "lastUpdated": "2025-12-04T06:05:14.564Z",
   "actualTiebreaker": 172,
   "topRunScorers": {
     "eng": [
       {
         "name": "Ollie Pope",
         "runs": 79
+      },
+      {
+        "name": "Zak Crawley",
+        "runs": 57
       },
       {
         "name": "Harry Brook",
@@ -18,10 +22,6 @@
       {
         "name": "Jamie Smith",
         "runs": 48
-      },
-      {
-        "name": "Gus Atkinson",
-        "runs": 38
       }
     ],
     "aus": [
@@ -73,7 +73,7 @@
     "aus": [
       {
         "name": "Mitchell Starc",
-        "wickets": 10
+        "wickets": 12
       },
       {
         "name": "Brendan Doggett",

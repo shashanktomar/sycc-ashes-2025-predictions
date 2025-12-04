@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-04T05:06:36.737Z",
+  "lastUpdated": "2025-12-04T06:05:13.309Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -199,6 +199,64 @@
               "wickets": 0
             }
           }
+        }
+      }
+    },
+    "108793": {
+      "matchId": "108793",
+      "date": "2025-12-04",
+      "status": "Day 1: 1st Session - England opt to bat",
+      "result": "Day 1: 1st Session - England opt to bat",
+      "scores": {
+        "eng": "94-2",
+        "aus": "0/0"
+      },
+      "playerStats": {
+        "eng": {
+          "innings1": {
+            "Zak Crawley": {
+              "runs": 57,
+              "wickets": 0
+            },
+            "Ben Duckett": {
+              "runs": 0,
+              "wickets": 0
+            },
+            "Ollie Pope": {
+              "runs": 0,
+              "wickets": 0
+            },
+            "Joe Root": {
+              "runs": 32,
+              "wickets": 0
+            }
+          },
+          "innings2": {}
+        },
+        "aus": {
+          "innings1": {
+            "Mitchell Starc": {
+              "runs": 0,
+              "wickets": 2
+            },
+            "Michael Neser": {
+              "runs": 0,
+              "wickets": 0
+            },
+            "Scott Boland": {
+              "runs": 0,
+              "wickets": 0
+            },
+            "Brendan Doggett": {
+              "runs": 0,
+              "wickets": 0
+            },
+            "Cameron Green": {
+              "runs": 0,
+              "wickets": 0
+            }
+          },
+          "innings2": {}
         }
       }
     }
