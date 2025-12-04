@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-04T08:43:03.992Z",
+  "lastUpdated": "2025-12-04T08:55:45.479Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -205,10 +205,10 @@
     "108793": {
       "matchId": "108793",
       "date": "2025-12-04",
-      "status": "Day 1: 2nd Session - England opt to bat",
-      "result": "Day 1: 2nd Session - England opt to bat",
+      "status": "England opt to bat",
+      "result": "England opt to bat",
       "scores": {
-        "eng": "195-4",
+        "eng": "196-4",
         "aus": "0/0"
       },
       "playerStats": {
@@ -235,7 +235,7 @@
               "wickets": 0
             },
             "Ben Stokes (c)": {
-              "runs": 13,
+              "runs": 14,
               "wickets": 0
             }
           },
