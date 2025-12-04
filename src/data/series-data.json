@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-04T10:52:44.585Z",
+  "lastUpdated": "2025-12-04T11:06:08.530Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -208,7 +208,7 @@
       "status": "Day 1: 3rd Session - England opt to bat",
       "result": "Day 1: 3rd Session - England opt to bat",
       "scores": {
-        "eng": "264-8",
+        "eng": "273-9",
         "aus": "0/0"
       },
       "playerStats": {
@@ -227,7 +227,7 @@
               "wickets": 0
             },
             "Joe Root": {
-              "runs": 106,
+              "runs": 113,
               "wickets": 0
             },
             "Harry Brook": {
@@ -253,6 +253,10 @@
             "Brydon Carse": {
               "runs": 0,
               "wickets": 0
+            },
+            "Jofra Archer": {
+              "runs": 2,
+              "wickets": 0
             }
           },
           "innings2": {}
@@ -261,7 +265,7 @@
           "innings1": {
             "Mitchell Starc": {
               "runs": 0,
-              "wickets": 5
+              "wickets": 6
             },
             "Michael Neser": {
               "runs": 0,
