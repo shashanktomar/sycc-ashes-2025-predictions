@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-04T06:44:59.962Z",
+  "lastUpdated": "2025-12-04T06:57:04.828Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -208,14 +208,14 @@
       "status": "Day 1: 2nd Session - England opt to bat",
       "result": "Day 1: 2nd Session - England opt to bat",
       "scores": {
-        "eng": "98-2",
+        "eng": "120-2",
         "aus": "0/0"
       },
       "playerStats": {
         "eng": {
           "innings1": {
             "Zak Crawley": {
-              "runs": 61,
+              "runs": 76,
               "wickets": 0
             },
             "Ben Duckett": {
@@ -227,7 +227,7 @@
               "wickets": 0
             },
             "Joe Root": {
-              "runs": 32,
+              "runs": 39,
               "wickets": 0
             }
           },
