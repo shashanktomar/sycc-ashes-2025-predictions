@@ -1,8 +1,12 @@
 {
-  "lastUpdated": "2025-12-04T07:48:48.089Z",
+  "lastUpdated": "2025-12-04T08:08:24.584Z",
   "actualTiebreaker": 172,
   "topRunScorers": {
     "eng": [
+      {
+        "name": "Harry Brook",
+        "runs": 82
+      },
       {
         "name": "Ollie Pope",
         "runs": 79
@@ -12,12 +16,8 @@
         "runs": 76
       },
       {
-        "name": "Harry Brook",
-        "runs": 73
-      },
-      {
         "name": "Joe Root",
-        "runs": 58
+        "runs": 70
       },
       {
         "name": "Ben Duckett",
