@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-04T06:05:13.309Z",
+  "lastUpdated": "2025-12-04T06:08:41.278Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -205,17 +205,17 @@
     "108793": {
       "matchId": "108793",
       "date": "2025-12-04",
-      "status": "Day 1: 1st Session - England opt to bat",
-      "result": "Day 1: 1st Session - England opt to bat",
+      "status": "England opt to bat",
+      "result": "England opt to bat",
       "scores": {
-        "eng": "94-2",
+        "eng": "98-2",
         "aus": "0/0"
       },
       "playerStats": {
         "eng": {
           "innings1": {
             "Zak Crawley": {
-              "runs": 57,
+              "runs": 61,
               "wickets": 0
             },
             "Ben Duckett": {
