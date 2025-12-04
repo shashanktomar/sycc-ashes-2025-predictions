@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-04T06:25:42.249Z",
+  "lastUpdated": "2025-12-04T06:44:59.962Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -205,8 +205,8 @@
     "108793": {
       "matchId": "108793",
       "date": "2025-12-04",
-      "status": "England opt to bat",
-      "result": "England opt to bat",
+      "status": "Day 1: 2nd Session - England opt to bat",
+      "result": "Day 1: 2nd Session - England opt to bat",
       "scores": {
         "eng": "98-2",
         "aus": "0/0"
