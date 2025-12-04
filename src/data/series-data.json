@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-04T11:06:08.530Z",
+  "lastUpdated": "2025-12-04T11:24:32.503Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -208,7 +208,7 @@
       "status": "Day 1: 3rd Session - England opt to bat",
       "result": "Day 1: 3rd Session - England opt to bat",
       "scores": {
-        "eng": "273-9",
+        "eng": "307-9",
         "aus": "0/0"
       },
       "playerStats": {
@@ -227,7 +227,7 @@
               "wickets": 0
             },
             "Joe Root": {
-              "runs": 113,
+              "runs": 122,
               "wickets": 0
             },
             "Harry Brook": {
@@ -255,7 +255,7 @@
               "wickets": 0
             },
             "Jofra Archer": {
-              "runs": 2,
+              "runs": 27,
               "wickets": 0
             }
           },
