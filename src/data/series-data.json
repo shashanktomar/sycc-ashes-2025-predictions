@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-04T07:24:27.121Z",
+  "lastUpdated": "2025-12-04T07:36:31.122Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -208,7 +208,7 @@
       "status": "Day 1: 2nd Session - England opt to bat",
       "result": "Day 1: 2nd Session - England opt to bat",
       "scores": {
-        "eng": "133-3",
+        "eng": "154-3",
         "aus": "0/0"
       },
       "playerStats": {
@@ -227,11 +227,11 @@
               "wickets": 0
             },
             "Joe Root": {
-              "runs": 41,
+              "runs": 51,
               "wickets": 0
             },
             "Harry Brook": {
-              "runs": 11,
+              "runs": 22,
               "wickets": 0
             }
           },
