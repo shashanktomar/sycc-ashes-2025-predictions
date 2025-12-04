@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-04T09:38:57.232Z",
+  "lastUpdated": "2025-12-04T09:50:30.719Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -208,7 +208,7 @@
       "status": "Day 1: 3rd Session - England opt to bat",
       "result": "Day 1: 3rd Session - England opt to bat",
       "scores": {
-        "eng": "206-4",
+        "eng": "210-5",
         "aus": "0/0"
       },
       "playerStats": {
@@ -227,7 +227,7 @@
               "wickets": 0
             },
             "Joe Root": {
-              "runs": 73,
+              "runs": 77,
               "wickets": 0
             },
             "Harry Brook": {
@@ -236,6 +236,10 @@
             },
             "Ben Stokes (c)": {
               "runs": 19,
+              "wickets": 0
+            },
+            "Jamie Smith (wk)": {
+              "runs": 0,
               "wickets": 0
             }
           },
