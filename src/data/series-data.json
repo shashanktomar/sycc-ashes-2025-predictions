@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-04T07:10:19.062Z",
+  "lastUpdated": "2025-12-04T07:24:27.121Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -208,7 +208,7 @@
       "status": "Day 1: 2nd Session - England opt to bat",
       "result": "Day 1: 2nd Session - England opt to bat",
       "scores": {
-        "eng": "120-2",
+        "eng": "133-3",
         "aus": "0/0"
       },
       "playerStats": {
@@ -227,7 +227,11 @@
               "wickets": 0
             },
             "Joe Root": {
-              "runs": 39,
+              "runs": 41,
+              "wickets": 0
+            },
+            "Harry Brook": {
+              "runs": 11,
               "wickets": 0
             }
           },
@@ -241,7 +245,7 @@
             },
             "Michael Neser": {
               "runs": 0,
-              "wickets": 0
+              "wickets": 1
             },
             "Scott Boland": {
               "runs": 0,
