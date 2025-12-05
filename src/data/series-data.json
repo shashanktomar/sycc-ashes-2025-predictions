@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-05T09:24:43.589Z",
+  "lastUpdated": "2025-12-05T09:37:29.514Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -205,11 +205,11 @@
     "108793": {
       "matchId": "108793",
       "date": "2025-12-05",
-      "status": "Day 2: 3rd Session - Australia trail by 89 runs",
-      "result": "Day 2: 3rd Session - Australia trail by 89 runs",
+      "status": "Day 2: 3rd Session - Australia trail by 88 runs",
+      "result": "Day 2: 3rd Session - Australia trail by 88 runs",
       "scores": {
         "eng": "334-10",
-        "aus": "245-3"
+        "aus": "246-3"
       },
       "playerStats": {
         "eng": {
@@ -304,7 +304,7 @@
               "wickets": 0
             },
             "Cameron Green": {
-              "runs": 27,
+              "runs": 28,
               "wickets": 0
             }
           },
