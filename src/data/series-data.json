@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-05T10:06:20.358Z",
+  "lastUpdated": "2025-12-05T10:24:28.511Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -205,11 +205,11 @@
     "108793": {
       "matchId": "108793",
       "date": "2025-12-05",
-      "status": "Day 2: 3rd Session - Australia trail by 44 runs",
-      "result": "Day 2: 3rd Session - Australia trail by 44 runs",
+      "status": "Day 2: 3rd Session - Australia trail by 42 runs",
+      "result": "Day 2: 3rd Session - Australia trail by 42 runs",
       "scores": {
         "eng": "334-10",
-        "aus": "290-3"
+        "aus": "292-5"
       },
       "playerStats": {
         "eng": {
@@ -252,7 +252,7 @@
             },
             "Brydon Carse": {
               "runs": 0,
-              "wickets": 1
+              "wickets": 3
             },
             "Jofra Archer": {
               "runs": 38,
@@ -305,6 +305,10 @@
             },
             "Cameron Green": {
               "runs": 45,
+              "wickets": 0
+            },
+            "Alex Carey (wk)": {
+              "runs": 1,
               "wickets": 0
             }
           },
