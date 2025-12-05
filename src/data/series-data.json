@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-05T10:50:07.335Z",
+  "lastUpdated": "2025-12-05T11:06:17.532Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -205,11 +205,11 @@
     "108793": {
       "matchId": "108793",
       "date": "2025-12-05",
-      "status": "Day 2: 3rd Session - Australia trail by 5 runs",
-      "result": "Day 2: 3rd Session - Australia trail by 5 runs",
+      "status": "Day 2: 3rd Session - Australia lead by 1 run",
+      "result": "Day 2: 3rd Session - Australia lead by 1 run",
       "scores": {
         "eng": "334-10",
-        "aus": "329-5"
+        "aus": "335-6"
       },
       "playerStats": {
         "eng": {
@@ -260,7 +260,7 @@
             },
             "Ben Stokes (c)": {
               "runs": 0,
-              "wickets": 1
+              "wickets": 2
             }
           },
           "innings2": {}
@@ -308,11 +308,15 @@
               "wickets": 0
             },
             "Alex Carey (wk)": {
-              "runs": 13,
+              "runs": 18,
               "wickets": 0
             },
             "Josh Inglis": {
               "runs": 23,
+              "wickets": 0
+            },
+            "Michael Neser": {
+              "runs": 1,
               "wickets": 0
             }
           },
