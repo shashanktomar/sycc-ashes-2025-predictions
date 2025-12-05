@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-05T07:36:48.182Z",
+  "lastUpdated": "2025-12-05T07:48:44.644Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -205,11 +205,11 @@
     "108793": {
       "matchId": "108793",
       "date": "2025-12-05",
-      "status": "Day 2: 2nd Session - Australia trail by 179 runs",
-      "result": "Day 2: 2nd Session - Australia trail by 179 runs",
+      "status": "Day 2: 2nd Session - Australia trail by 159 runs",
+      "result": "Day 2: 2nd Session - Australia trail by 159 runs",
       "scores": {
         "eng": "334-10",
-        "aus": "155-2"
+        "aus": "175-2"
       },
       "playerStats": {
         "eng": {
@@ -296,11 +296,11 @@
               "wickets": 0
             },
             "Marnus Labuschagne": {
-              "runs": 35,
+              "runs": 46,
               "wickets": 0
             },
             "Steven Smith (c)": {
-              "runs": 4,
+              "runs": 12,
               "wickets": 0
             }
           },
