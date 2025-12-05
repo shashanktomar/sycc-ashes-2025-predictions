@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-05T06:45:05.294Z",
+  "lastUpdated": "2025-12-05T06:57:17.484Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -205,11 +205,11 @@
     "108793": {
       "matchId": "108793",
       "date": "2025-12-05",
-      "status": "Day 2: Tea Break - Australia trail by 204 runs",
-      "result": "Day 2: Tea Break - Australia trail by 204 runs",
+      "status": "Day 2: 2nd Session - Australia trail by 201 runs",
+      "result": "Day 2: 2nd Session - Australia trail by 201 runs",
       "scores": {
         "eng": "334-10",
-        "aus": "130-1"
+        "aus": "133-1"
       },
       "playerStats": {
         "eng": {
@@ -292,11 +292,11 @@
               "wickets": 0
             },
             "Jake Weatherald": {
-              "runs": 59,
+              "runs": 61,
               "wickets": 0
             },
             "Marnus Labuschagne": {
-              "runs": 27,
+              "runs": 28,
               "wickets": 0
             }
           },
