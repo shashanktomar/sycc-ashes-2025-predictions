@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-05T10:24:28.511Z",
+  "lastUpdated": "2025-12-05T10:39:22.693Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -205,11 +205,11 @@
     "108793": {
       "matchId": "108793",
       "date": "2025-12-05",
-      "status": "Day 2: 3rd Session - Australia trail by 42 runs",
-      "result": "Day 2: 3rd Session - Australia trail by 42 runs",
+      "status": "Day 2: 3rd Session - Australia trail by 19 runs",
+      "result": "Day 2: 3rd Session - Australia trail by 19 runs",
       "scores": {
         "eng": "334-10",
-        "aus": "292-5"
+        "aus": "315-5"
       },
       "playerStats": {
         "eng": {
@@ -308,7 +308,11 @@
               "wickets": 0
             },
             "Alex Carey (wk)": {
-              "runs": 1,
+              "runs": 12,
+              "wickets": 0
+            },
+            "Josh Inglis": {
+              "runs": 11,
               "wickets": 0
             }
           },
