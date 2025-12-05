@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-05T05:06:42.902Z",
+  "lastUpdated": "2025-12-05T05:24:11.122Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -205,11 +205,11 @@
     "108793": {
       "matchId": "108793",
       "date": "2025-12-05",
-      "status": "Day 2: 1st Session - Australia trail by 312 runs",
-      "result": "Day 2: 1st Session - Australia trail by 312 runs",
+      "status": "Day 2: 1st Session - Australia trail by 260 runs",
+      "result": "Day 2: 1st Session - Australia trail by 260 runs",
       "scores": {
         "eng": "334-10",
-        "aus": "22-0"
+        "aus": "74-0"
       },
       "playerStats": {
         "eng": {
@@ -257,6 +257,10 @@
             "Jofra Archer": {
               "runs": 38,
               "wickets": 0
+            },
+            "Ben Stokes (c)": {
+              "runs": 0,
+              "wickets": 0
             }
           },
           "innings2": {}
@@ -284,11 +288,11 @@
               "wickets": 0
             },
             "Travis Head": {
-              "runs": 3,
+              "runs": 30,
               "wickets": 0
             },
             "Jake Weatherald": {
-              "runs": 15,
+              "runs": 40,
               "wickets": 0
             }
           },
