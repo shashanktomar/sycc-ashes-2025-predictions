@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-05T04:16:16.619Z",
+  "lastUpdated": "2025-12-05T04:41:59.564Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -205,11 +205,11 @@
     "108793": {
       "matchId": "108793",
       "date": "2025-12-05",
-      "status": "Day 2: Innings Break",
-      "result": "Day 2: Innings Break",
+      "status": "Day 2: 1st Session - Australia trail by 334 runs",
+      "result": "Day 2: 1st Session - Australia trail by 334 runs",
       "scores": {
         "eng": "334-10",
-        "aus": "0/0"
+        "aus": "0-0"
       },
       "playerStats": {
         "eng": {
@@ -218,7 +218,7 @@
               "runs": 76,
               "wickets": 0
             },
-            "Ben Duckett": {
+            "Duckett": {
               "runs": 0,
               "wickets": 0
             },
@@ -226,7 +226,7 @@
               "runs": 0,
               "wickets": 0
             },
-            "Joe Root": {
+            "Root": {
               "runs": 138,
               "wickets": 0
             },
@@ -234,7 +234,7 @@
               "runs": 31,
               "wickets": 0
             },
-            "Ben Stokes (c)": {
+            "Stokes (c)": {
               "runs": 19,
               "wickets": 0
             },
@@ -267,11 +267,11 @@
               "runs": 0,
               "wickets": 6
             },
-            "Michael Neser": {
+            "Neser": {
               "runs": 0,
               "wickets": 1
             },
-            "Scott Boland": {
+            "Boland": {
               "runs": 0,
               "wickets": 1
             },
@@ -279,7 +279,15 @@
               "runs": 0,
               "wickets": 1
             },
-            "Cameron Green": {
+            "Green": {
+              "runs": 0,
+              "wickets": 0
+            },
+            "Travis Head": {
+              "runs": 0,
+              "wickets": 0
+            },
+            "Jake Weatherald": {
               "runs": 0,
               "wickets": 0
             }
