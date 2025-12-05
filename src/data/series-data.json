@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-05T08:41:32.308Z",
+  "lastUpdated": "2025-12-05T09:24:43.589Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -205,11 +205,11 @@
     "108793": {
       "matchId": "108793",
       "date": "2025-12-05",
-      "status": "Day 2: 2nd Session - Australia trail by 119 runs",
-      "result": "Day 2: 2nd Session - Australia trail by 119 runs",
+      "status": "Day 2: 3rd Session - Australia trail by 89 runs",
+      "result": "Day 2: 3rd Session - Australia trail by 89 runs",
       "scores": {
         "eng": "334-10",
-        "aus": "215-3"
+        "aus": "245-3"
       },
       "playerStats": {
         "eng": {
@@ -300,11 +300,11 @@
               "wickets": 0
             },
             "Steven Smith (c)": {
-              "runs": 18,
+              "runs": 35,
               "wickets": 0
             },
             "Cameron Green": {
-              "runs": 15,
+              "runs": 27,
               "wickets": 0
             }
           },
