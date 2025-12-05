@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-05T04:41:59.564Z",
+  "lastUpdated": "2025-12-05T04:52:50.405Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -205,11 +205,11 @@
     "108793": {
       "matchId": "108793",
       "date": "2025-12-05",
-      "status": "Day 2: 1st Session - Australia trail by 334 runs",
-      "result": "Day 2: 1st Session - Australia trail by 334 runs",
+      "status": "Day 2: 1st Session - Australia trail by 324 runs",
+      "result": "Day 2: 1st Session - Australia trail by 324 runs",
       "scores": {
         "eng": "334-10",
-        "aus": "0-0"
+        "aus": "10-0"
       },
       "playerStats": {
         "eng": {
@@ -284,11 +284,11 @@
               "wickets": 0
             },
             "Travis Head": {
-              "runs": 0,
+              "runs": 2,
               "wickets": 0
             },
             "Jake Weatherald": {
-              "runs": 0,
+              "runs": 8,
               "wickets": 0
             }
           },

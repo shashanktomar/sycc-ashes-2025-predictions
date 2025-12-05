@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-05T04:42:00.894Z",
+  "lastUpdated": "2025-12-05T04:52:51.746Z",
   "actualTiebreaker": 172,
   "topRunScorers": {
     "eng": [
@@ -27,11 +27,15 @@
     "aus": [
       {
         "name": "Travis Head",
-        "runs": 144
+        "runs": 146
       },
       {
         "name": "Marnus Labuschagne",
         "runs": 60
+      },
+      {
+        "name": "Jake Weatherald",
+        "runs": 31
       },
       {
         "name": "Alex Carey",
@@ -40,10 +44,6 @@
       {
         "name": "Cameron Green",
         "runs": 24
-      },
-      {
-        "name": "Jake Weatherald",
-        "runs": 23
       }
     ]
   },
