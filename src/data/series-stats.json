@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-05T05:24:12.448Z",
+  "lastUpdated": "2025-12-05T05:38:03.399Z",
   "actualTiebreaker": 172,
   "topRunScorers": {
     "eng": [
@@ -27,7 +27,7 @@
     "aus": [
       {
         "name": "Travis Head",
-        "runs": 174
+        "runs": 177
       },
       {
         "name": "Jake Weatherald",
@@ -35,7 +35,7 @@
       },
       {
         "name": "Marnus Labuschagne",
-        "runs": 60
+        "runs": 62
       },
       {
         "name": "Alex Carey",
@@ -50,11 +50,11 @@
   "topWicketTakers": {
     "eng": [
       {
-        "name": "Ben Stokes",
-        "wickets": 5
+        "name": "Brydon Carse",
+        "wickets": 6
       },
       {
-        "name": "Brydon Carse",
+        "name": "Ben Stokes",
         "wickets": 5
       },
       {
