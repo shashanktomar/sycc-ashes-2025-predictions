@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-05T06:57:17.484Z",
+  "lastUpdated": "2025-12-05T07:10:48.854Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -205,11 +205,11 @@
     "108793": {
       "matchId": "108793",
       "date": "2025-12-05",
-      "status": "Day 2: 2nd Session - Australia trail by 201 runs",
-      "result": "Day 2: 2nd Session - Australia trail by 201 runs",
+      "status": "Day 2: 2nd Session - Australia trail by 188 runs",
+      "result": "Day 2: 2nd Session - Australia trail by 188 runs",
       "scores": {
         "eng": "334-10",
-        "aus": "133-1"
+        "aus": "146-2"
       },
       "playerStats": {
         "eng": {
@@ -256,7 +256,7 @@
             },
             "Jofra Archer": {
               "runs": 38,
-              "wickets": 0
+              "wickets": 1
             },
             "Ben Stokes (c)": {
               "runs": 0,
@@ -292,11 +292,15 @@
               "wickets": 0
             },
             "Jake Weatherald": {
-              "runs": 61,
+              "runs": 72,
               "wickets": 0
             },
             "Marnus Labuschagne": {
-              "runs": 28,
+              "runs": 30,
+              "wickets": 0
+            },
+            "Steven Smith (c)": {
+              "runs": 0,
               "wickets": 0
             }
           },
