@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-06T05:05:36.717Z",
+  "lastUpdated": "2025-12-06T05:23:49.741Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -205,11 +205,11 @@
     "108793": {
       "matchId": "108793",
       "date": "2025-12-06",
-      "status": "Day 3: 1st Session - Australia lead by 85 runs",
-      "result": "Day 3: 1st Session - Australia lead by 85 runs",
+      "status": "Day 3: 1st Session - Australia lead by 86 runs",
+      "result": "Day 3: 1st Session - Australia lead by 86 runs",
       "scores": {
         "eng": "334-10",
-        "aus": "419-8"
+        "aus": "420-8"
       },
       "playerStats": {
         "eng": {
@@ -320,7 +320,7 @@
               "wickets": 0
             },
             "Scott Boland": {
-              "runs": 0,
+              "runs": 1,
               "wickets": 0
             }
           },
