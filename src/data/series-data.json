@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-06T07:23:29.938Z",
+  "lastUpdated": "2025-12-06T07:34:15.420Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -205,11 +205,11 @@
     "108793": {
       "matchId": "108793",
       "date": "2025-12-06",
-      "status": "Day 3: 2nd Session - Australia lead by 150 runs",
-      "result": "Day 3: 2nd Session - Australia lead by 150 runs",
+      "status": "Day 3: 2nd Session - Australia lead by 156 runs",
+      "result": "Day 3: 2nd Session - Australia lead by 156 runs",
       "scores": {
         "eng": "334-10",
-        "aus": "484-8"
+        "aus": "490-8"
       },
       "playerStats": {
         "eng": {
@@ -268,7 +268,7 @@
         "aus": {
           "innings1": {
             "Mitchell Starc": {
-              "runs": 71,
+              "runs": 76,
               "wickets": 6
             },
             "Neser": {
