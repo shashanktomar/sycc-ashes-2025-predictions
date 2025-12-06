@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-06T06:07:34.221Z",
+  "lastUpdated": "2025-12-06T06:25:19.345Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -205,11 +205,11 @@
     "108793": {
       "matchId": "108793",
       "date": "2025-12-06",
-      "status": "Day 3: 1st Session - Australia lead by 112 runs",
-      "result": "Day 3: 1st Session - Australia lead by 112 runs",
+      "status": "Day 3: Tea Break - Australia lead by 116 runs",
+      "result": "Day 3: Tea Break - Australia lead by 116 runs",
       "scores": {
         "eng": "334-10",
-        "aus": "446-8"
+        "aus": "450-8"
       },
       "playerStats": {
         "eng": {
@@ -268,7 +268,7 @@
         "aus": {
           "innings1": {
             "Mitchell Starc": {
-              "runs": 42,
+              "runs": 46,
               "wickets": 6
             },
             "Neser": {
