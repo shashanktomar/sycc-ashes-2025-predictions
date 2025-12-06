@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-06T11:05:11.036Z",
+  "lastUpdated": "2025-12-06T11:22:26.160Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -208,7 +208,7 @@
       "status": "Day 3: 3rd Session - England trail by 54 runs",
       "result": "Day 3: 3rd Session - England trail by 54 runs",
       "scores": {
-        "eng": "334-10 & 123-4",
+        "eng": "334-10 & 123-5",
         "aus": "511-10"
       },
       "playerStats": {
@@ -283,6 +283,10 @@
             "Ben Stokes (c)": {
               "runs": 1,
               "wickets": 0
+            },
+            "Jamie Smith (wk)": {
+              "runs": 0,
+              "wickets": 0
             }
           }
         },
@@ -348,7 +352,7 @@
             },
             "Scott Boland": {
               "runs": 0,
-              "wickets": 1
+              "wickets": 2
             }
           }
         }
