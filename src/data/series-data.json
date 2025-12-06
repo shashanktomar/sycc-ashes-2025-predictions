@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-06T10:48:36.738Z",
+  "lastUpdated": "2025-12-06T11:05:11.036Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -205,10 +205,10 @@
     "108793": {
       "matchId": "108793",
       "date": "2025-12-06",
-      "status": "Day 3: 3rd Session - England trail by 56 runs",
-      "result": "Day 3: 3rd Session - England trail by 56 runs",
+      "status": "Day 3: 3rd Session - England trail by 54 runs",
+      "result": "Day 3: 3rd Session - England trail by 54 runs",
       "scores": {
-        "eng": "334-10 & 121-4",
+        "eng": "334-10 & 123-4",
         "aus": "511-10"
       },
       "playerStats": {
@@ -277,11 +277,11 @@
               "wickets": 0
             },
             "Harry Brook": {
-              "runs": 14,
+              "runs": 15,
               "wickets": 0
             },
             "Ben Stokes (c)": {
-              "runs": 0,
+              "runs": 1,
               "wickets": 0
             }
           }
