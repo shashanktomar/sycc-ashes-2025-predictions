@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-06T08:24:53.374Z",
+  "lastUpdated": "2025-12-06T08:39:02.083Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -205,10 +205,10 @@
     "108793": {
       "matchId": "108793",
       "date": "2025-12-06",
-      "status": "Day 3: Innings Break - Australia lead by 177 runs",
-      "result": "Day 3: Innings Break - Australia lead by 177 runs",
+      "status": "Day 3: 2nd Session - England trail by 176 runs",
+      "result": "Day 3: 2nd Session - England trail by 176 runs",
       "scores": {
-        "eng": "334-10",
+        "eng": "334-10 & 1-0",
         "aus": "511-10"
       },
       "playerStats": {
@@ -236,7 +236,7 @@
             },
             "Stokes (c)": {
               "runs": 19,
-              "wickets": 0
+              "wickets": 3
             },
             "Jamie Smith (wk)": {
               "runs": 0,
@@ -257,13 +257,18 @@
             "Jofra Archer": {
               "runs": 38,
               "wickets": 1
-            },
-            "Ben Stokes (c)": {
-              "runs": 0,
-              "wickets": 3
             }
           },
-          "innings2": {}
+          "innings2": {
+            "Zak Crawley": {
+              "runs": 1,
+              "wickets": 0
+            },
+            "Ben Duckett": {
+              "runs": 0,
+              "wickets": 0
+            }
+          }
         },
         "aus": {
           "innings1": {
@@ -272,11 +277,11 @@
               "wickets": 6
             },
             "Neser": {
-              "runs": 0,
+              "runs": 16,
               "wickets": 1
             },
             "Boland": {
-              "runs": 0,
+              "runs": 21,
               "wickets": 1
             },
             "Brendan Doggett": {
@@ -284,10 +289,10 @@
               "wickets": 1
             },
             "Green": {
-              "runs": 0,
+              "runs": 45,
               "wickets": 0
             },
-            "Travis Head": {
+            "Head": {
               "runs": 33,
               "wickets": 0
             },
@@ -295,16 +300,12 @@
               "runs": 72,
               "wickets": 0
             },
-            "Marnus Labuschagne": {
+            "Labuschagne": {
               "runs": 65,
               "wickets": 0
             },
             "Steven Smith (c)": {
               "runs": 61,
-              "wickets": 0
-            },
-            "Cameron Green": {
-              "runs": 45,
               "wickets": 0
             },
             "Alex Carey (wk)": {
@@ -314,17 +315,14 @@
             "Josh Inglis": {
               "runs": 23,
               "wickets": 0
-            },
-            "Michael Neser": {
-              "runs": 16,
-              "wickets": 0
-            },
-            "Scott Boland": {
-              "runs": 21,
-              "wickets": 0
             }
           },
-          "innings2": {}
+          "innings2": {
+            "Mitchell Starc": {
+              "runs": 0,
+              "wickets": 0
+            }
+          }
         }
       }
     }
