@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-06T08:39:02.083Z",
+  "lastUpdated": "2025-12-06T08:50:45.199Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -205,10 +205,10 @@
     "108793": {
       "matchId": "108793",
       "date": "2025-12-06",
-      "status": "Day 3: 2nd Session - England trail by 176 runs",
-      "result": "Day 3: 2nd Session - England trail by 176 runs",
+      "status": "Day 3: Dinner Break - England trail by 132 runs",
+      "result": "Day 3: Dinner Break - England trail by 132 runs",
       "scores": {
-        "eng": "334-10 & 1-0",
+        "eng": "334-10 & 45-0",
         "aus": "511-10"
       },
       "playerStats": {
@@ -261,11 +261,11 @@
           },
           "innings2": {
             "Zak Crawley": {
-              "runs": 1,
+              "runs": 26,
               "wickets": 0
             },
             "Ben Duckett": {
-              "runs": 0,
+              "runs": 13,
               "wickets": 0
             }
           }
@@ -319,6 +319,10 @@
           },
           "innings2": {
             "Mitchell Starc": {
+              "runs": 0,
+              "wickets": 0
+            },
+            "Michael Neser": {
               "runs": 0,
               "wickets": 0
             }

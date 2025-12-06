@@ -1,11 +1,15 @@
 {
-  "lastUpdated": "2025-12-06T08:39:03.400Z",
+  "lastUpdated": "2025-12-06T08:50:46.513Z",
   "actualTiebreaker": 172,
   "topRunScorers": {
     "eng": [
       {
         "name": "Joe Root",
         "runs": 146
+      },
+      {
+        "name": "Zak Crawley",
+        "runs": 102
       },
       {
         "name": "Harry Brook",
@@ -16,12 +20,8 @@
         "runs": 79
       },
       {
-        "name": "Zak Crawley",
-        "runs": 77
-      },
-      {
         "name": "Ben Duckett",
-        "runs": 49
+        "runs": 62
       }
     ],
     "aus": [
