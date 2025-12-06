@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-06T04:38:21.164Z",
+  "lastUpdated": "2025-12-06T04:49:54.202Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -205,11 +205,11 @@
     "108793": {
       "matchId": "108793",
       "date": "2025-12-06",
-      "status": "Day 3: 1st Session - Australia lead by 58 runs",
-      "result": "Day 3: 1st Session - Australia lead by 58 runs",
+      "status": "Day 3: 1st Session - Australia lead by 82 runs",
+      "result": "Day 3: 1st Session - Australia lead by 82 runs",
       "scores": {
         "eng": "334-10",
-        "aus": "392-7"
+        "aus": "416-8"
       },
       "playerStats": {
         "eng": {
@@ -248,7 +248,7 @@
             },
             "Gus Atkinson": {
               "runs": 4,
-              "wickets": 0
+              "wickets": 1
             },
             "Brydon Carse": {
               "runs": 0,
@@ -268,7 +268,7 @@
         "aus": {
           "innings1": {
             "Mitchell Starc": {
-              "runs": 2,
+              "runs": 19,
               "wickets": 6
             },
             "Neser": {
@@ -308,7 +308,7 @@
               "wickets": 0
             },
             "Alex Carey (wk)": {
-              "runs": 57,
+              "runs": 63,
               "wickets": 0
             },
             "Josh Inglis": {
