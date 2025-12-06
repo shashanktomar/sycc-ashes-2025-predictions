@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-06T09:48:29.480Z",
+  "lastUpdated": "2025-12-06T10:05:27.839Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -205,10 +205,10 @@
     "108793": {
       "matchId": "108793",
       "date": "2025-12-06",
-      "status": "Day 3: 3rd Session - England trail by 100 runs",
-      "result": "Day 3: 3rd Session - England trail by 100 runs",
+      "status": "Day 3: 3rd Session - England trail by 90 runs",
+      "result": "Day 3: 3rd Session - England trail by 90 runs",
       "scores": {
-        "eng": "334-10 & 77-1",
+        "eng": "334-10 & 87-1",
         "aus": "511-10"
       },
       "playerStats": {
@@ -261,7 +261,7 @@
           },
           "innings2": {
             "Zak Crawley": {
-              "runs": 41,
+              "runs": 42,
               "wickets": 0
             },
             "Ben Duckett": {
@@ -269,7 +269,7 @@
               "wickets": 0
             },
             "Ollie Pope": {
-              "runs": 15,
+              "runs": 23,
               "wickets": 0
             }
           }
