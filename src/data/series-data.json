@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-06T08:50:45.199Z",
+  "lastUpdated": "2025-12-06T09:05:29.480Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -205,10 +205,10 @@
     "108793": {
       "matchId": "108793",
       "date": "2025-12-06",
-      "status": "Day 3: Dinner Break - England trail by 132 runs",
-      "result": "Day 3: Dinner Break - England trail by 132 runs",
+      "status": "Day 3: 3rd Session - England trail by 131 runs",
+      "result": "Day 3: 3rd Session - England trail by 131 runs",
       "scores": {
-        "eng": "334-10 & 45-0",
+        "eng": "334-10 & 46-0",
         "aus": "511-10"
       },
       "playerStats": {
@@ -265,7 +265,7 @@
               "wickets": 0
             },
             "Ben Duckett": {
-              "runs": 13,
+              "runs": 14,
               "wickets": 0
             }
           }
@@ -323,6 +323,10 @@
               "wickets": 0
             },
             "Michael Neser": {
+              "runs": 0,
+              "wickets": 0
+            },
+            "Brendan Doggett": {
               "runs": 0,
               "wickets": 0
             }
