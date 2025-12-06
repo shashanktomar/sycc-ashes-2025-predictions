@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-06T11:22:26.160Z",
+  "lastUpdated": "2025-12-06T11:34:02.479Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -205,10 +205,10 @@
     "108793": {
       "matchId": "108793",
       "date": "2025-12-06",
-      "status": "Day 3: 3rd Session - England trail by 54 runs",
-      "result": "Day 3: 3rd Session - England trail by 54 runs",
+      "status": "Day 3: 3rd Session - England trail by 43 runs",
+      "result": "Day 3: 3rd Session - England trail by 43 runs",
       "scores": {
-        "eng": "334-10 & 123-5",
+        "eng": "334-10 & 134-6",
         "aus": "511-10"
       },
       "playerStats": {
@@ -281,11 +281,15 @@
               "wickets": 0
             },
             "Ben Stokes (c)": {
-              "runs": 1,
+              "runs": 4,
               "wickets": 0
             },
             "Jamie Smith (wk)": {
-              "runs": 0,
+              "runs": 4,
+              "wickets": 0
+            },
+            "Will Jacks": {
+              "runs": 4,
               "wickets": 0
             }
           }
@@ -340,7 +344,7 @@
           "innings2": {
             "Mitchell Starc": {
               "runs": 0,
-              "wickets": 1
+              "wickets": 2
             },
             "Michael Neser": {
               "runs": 0,
