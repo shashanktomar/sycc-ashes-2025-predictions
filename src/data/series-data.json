@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-07T08:38:34.512Z",
+  "lastUpdated": "2025-12-07T08:49:59.136Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -205,11 +205,11 @@
     "108793": {
       "matchId": "108793",
       "date": "2025-12-07",
-      "status": "Day 4: 2nd Session - Australia need 56 runs",
-      "result": "Day 4: 2nd Session - Australia need 56 runs",
+      "status": "Day 4: Innings Break - England lead by 64 runs",
+      "result": "Day 4: Innings Break - England lead by 64 runs",
       "scores": {
         "eng": "334-10 & 241-10",
-        "aus": "511-10 & 9-0"
+        "aus": "511-10"
       },
       "playerStats": {
         "eng": {
@@ -264,7 +264,7 @@
               "runs": 44,
               "wickets": 0
             },
-            "Duckett": {
+            "Ben Duckett": {
               "runs": 15,
               "wickets": 0
             },
@@ -272,7 +272,7 @@
               "runs": 26,
               "wickets": 0
             },
-            "Root": {
+            "Joe Root": {
               "runs": 15,
               "wickets": 0
             },
@@ -280,7 +280,7 @@
               "runs": 15,
               "wickets": 0
             },
-            "Stokes (c)": {
+            "Ben Stokes (c)": {
               "runs": 50,
               "wickets": 0
             },
@@ -358,7 +358,7 @@
               "runs": 0,
               "wickets": 2
             },
-            "Neser": {
+            "Michael Neser": {
               "runs": 0,
               "wickets": 5
             },
@@ -366,28 +366,20 @@
               "runs": 0,
               "wickets": 1
             },
-            "Boland": {
+            "Scott Boland": {
               "runs": 0,
               "wickets": 2
             },
-            "Green": {
-              "runs": 0,
-              "wickets": 0
-            },
-            "Head": {
-              "runs": 0,
-              "wickets": 0
-            },
-            "Labuschagne": {
+            "Cameron Green": {
               "runs": 0,
               "wickets": 0
             },
             "Travis Head": {
-              "runs": 1,
+              "runs": 0,
               "wickets": 0
             },
-            "Jake Weatherald": {
-              "runs": 4,
+            "Marnus Labuschagne": {
+              "runs": 0,
               "wickets": 0
             }
           }
