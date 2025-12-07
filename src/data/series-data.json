@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-07T06:07:39.792Z",
+  "lastUpdated": "2025-12-07T06:25:12.389Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -205,10 +205,10 @@
     "108793": {
       "matchId": "108793",
       "date": "2025-12-07",
-      "status": "Day 4: 1st Session - England lead by 7 runs",
-      "result": "Day 4: 1st Session - England lead by 7 runs",
+      "status": "Day 4: Tea Break - England lead by 16 runs",
+      "result": "Day 4: Tea Break - England lead by 16 runs",
       "scores": {
-        "eng": "334-10 & 184-6",
+        "eng": "334-10 & 193-6",
         "aus": "511-10"
       },
       "playerStats": {
@@ -281,7 +281,7 @@
               "wickets": 0
             },
             "Ben Stokes (c)": {
-              "runs": 35,
+              "runs": 36,
               "wickets": 0
             },
             "Jamie Smith (wk)": {
@@ -289,7 +289,7 @@
               "wickets": 0
             },
             "Will Jacks": {
-              "runs": 18,
+              "runs": 25,
               "wickets": 0
             }
           }
@@ -359,6 +359,14 @@
               "wickets": 2
             },
             "Cameron Green": {
+              "runs": 0,
+              "wickets": 0
+            },
+            "Travis Head": {
+              "runs": 0,
+              "wickets": 0
+            },
+            "Marnus Labuschagne": {
               "runs": 0,
               "wickets": 0
             }
