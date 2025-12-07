@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-07T08:50:00.533Z",
+  "lastUpdated": "2025-12-07T09:05:23.151Z",
   "actualTiebreaker": 172,
   "topRunScorers": {
     "eng": [
@@ -27,7 +27,7 @@
     "aus": [
       {
         "name": "Travis Head",
-        "runs": 177
+        "runs": 196
       },
       {
         "name": "Marnus Labuschagne",
@@ -35,7 +35,7 @@
       },
       {
         "name": "Jake Weatherald",
-        "runs": 95
+        "runs": 105
       },
       {
         "name": "Mitchell Starc",
@@ -84,8 +84,8 @@
         "wickets": 7
       },
       {
-        "name": "Michael Neser",
-        "wickets": 5
+        "name": "Neser",
+        "wickets": 6
       },
       {
         "name": "Cameron Green",
