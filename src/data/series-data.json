@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-07T08:06:41.184Z",
+  "lastUpdated": "2025-12-07T08:24:46.578Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -205,10 +205,10 @@
     "108793": {
       "matchId": "108793",
       "date": "2025-12-07",
-      "status": "Day 4: 2nd Session - England lead by 54 runs",
-      "result": "Day 4: 2nd Session - England lead by 54 runs",
+      "status": "Day 4: Innings Break - England lead by 64 runs",
+      "result": "Day 4: Innings Break - England lead by 64 runs",
       "scores": {
-        "eng": "334-10 & 231-9",
+        "eng": "334-10 & 241-10",
         "aus": "511-10"
       },
       "playerStats": {
@@ -297,11 +297,11 @@
               "wickets": 0
             },
             "Brydon Carse": {
-              "runs": 3,
+              "runs": 7,
               "wickets": 0
             },
             "Jofra Archer": {
-              "runs": 0,
+              "runs": 5,
               "wickets": 0
             }
           }
@@ -360,7 +360,7 @@
             },
             "Michael Neser": {
               "runs": 0,
-              "wickets": 4
+              "wickets": 5
             },
             "Brendan Doggett": {
               "runs": 0,
