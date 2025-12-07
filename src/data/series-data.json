@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-07T07:23:25.456Z",
+  "lastUpdated": "2025-12-07T07:33:58.960Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -205,10 +205,10 @@
     "108793": {
       "matchId": "108793",
       "date": "2025-12-07",
-      "status": "Day 4: 2nd Session - England lead by 34 runs",
-      "result": "Day 4: 2nd Session - England lead by 34 runs",
+      "status": "Day 4: 2nd Session - England lead by 32 runs",
+      "result": "Day 4: 2nd Session - England lead by 32 runs",
       "scores": {
-        "eng": "334-10 & 211-6",
+        "eng": "334-10 & 209-6",
         "aus": "511-10"
       },
       "playerStats": {
@@ -289,7 +289,7 @@
               "wickets": 0
             },
             "Will Jacks": {
-              "runs": 35,
+              "runs": 34,
               "wickets": 0
             }
           }
