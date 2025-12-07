@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-07T09:05:23.151Z",
+  "lastUpdated": "2025-12-07T09:23:40.408Z",
   "actualTiebreaker": 172,
   "topRunScorers": {
     "eng": [
@@ -27,15 +27,15 @@
     "aus": [
       {
         "name": "Travis Head",
-        "runs": 196
+        "runs": 199
       },
       {
         "name": "Marnus Labuschagne",
-        "runs": 125
+        "runs": 128
       },
       {
         "name": "Jake Weatherald",
-        "runs": 105
+        "runs": 107
       },
       {
         "name": "Mitchell Starc",
@@ -63,7 +63,7 @@
       },
       {
         "name": "Gus Atkinson",
-        "wickets": 1
+        "wickets": 2
       },
       {
         "name": "Will Jacks",
