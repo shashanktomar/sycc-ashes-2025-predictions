@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-07T05:48:03.417Z",
+  "lastUpdated": "2025-12-07T06:07:39.792Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -205,10 +205,10 @@
     "108793": {
       "matchId": "108793",
       "date": "2025-12-07",
-      "status": "Day 4: 1st Session - England trail by 1 run",
-      "result": "Day 4: 1st Session - England trail by 1 run",
+      "status": "Day 4: 1st Session - England lead by 7 runs",
+      "result": "Day 4: 1st Session - England lead by 7 runs",
       "scores": {
-        "eng": "334-10 & 176-6",
+        "eng": "334-10 & 184-6",
         "aus": "511-10"
       },
       "playerStats": {
@@ -281,7 +281,7 @@
               "wickets": 0
             },
             "Ben Stokes (c)": {
-              "runs": 29,
+              "runs": 35,
               "wickets": 0
             },
             "Jamie Smith (wk)": {
@@ -289,7 +289,7 @@
               "wickets": 0
             },
             "Will Jacks": {
-              "runs": 16,
+              "runs": 18,
               "wickets": 0
             }
           }
