@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-18T01:34:02.562Z",
+  "lastUpdated": "2025-12-18T02:24:28.775Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -405,10 +405,10 @@
     "108801": {
       "matchId": "108801",
       "date": "2025-12-18",
-      "status": "Day 2: Lunch Break - England trail by 312 runs",
-      "result": "Day 2: Lunch Break - England trail by 312 runs",
+      "status": "Day 2: 2nd Session - England trail by 300 runs",
+      "result": "Day 2: 2nd Session - England trail by 300 runs",
       "scores": {
-        "eng": "59-3",
+        "eng": "71-4",
         "aus": "371-10"
       },
       "playerStats": {
@@ -447,11 +447,11 @@
               "wickets": 0
             },
             "Joe Root": {
-              "runs": 11,
+              "runs": 19,
               "wickets": 0
             },
             "Harry Brook": {
-              "runs": 6,
+              "runs": 10,
               "wickets": 0
             }
           },
@@ -505,7 +505,7 @@
             },
             "Pat Cummins (c)": {
               "runs": 0,
-              "wickets": 1
+              "wickets": 2
             },
             "Scott Boland": {
               "runs": 0,
