@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-18T04:03:44.740Z",
+  "lastUpdated": "2025-12-18T04:26:39.232Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -405,10 +405,10 @@
     "108801": {
       "matchId": "108801",
       "date": "2025-12-18",
-      "status": "Day 2: 2nd Session - England trail by 244 runs",
-      "result": "Day 2: 2nd Session - England trail by 244 runs",
+      "status": "Day 2: Tea Break - England trail by 239 runs",
+      "result": "Day 2: Tea Break - England trail by 239 runs",
       "scores": {
-        "eng": "127-5",
+        "eng": "132-5",
         "aus": "371-10"
       },
       "playerStats": {
@@ -456,6 +456,10 @@
             },
             "Ben Stokes (c)": {
               "runs": 19,
+              "wickets": 0
+            },
+            "Jamie Smith (wk)": {
+              "runs": 5,
               "wickets": 0
             }
           },
