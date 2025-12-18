@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-18T03:41:40.390Z",
+  "lastUpdated": "2025-12-18T04:03:44.740Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -405,10 +405,10 @@
     "108801": {
       "matchId": "108801",
       "date": "2025-12-18",
-      "status": "Day 2: 2nd Session - England trail by 255 runs",
-      "result": "Day 2: 2nd Session - England trail by 255 runs",
+      "status": "Day 2: 2nd Session - England trail by 244 runs",
+      "result": "Day 2: 2nd Session - England trail by 244 runs",
       "scores": {
-        "eng": "116-4",
+        "eng": "127-5",
         "aus": "371-10"
       },
       "playerStats": {
@@ -451,11 +451,11 @@
               "wickets": 0
             },
             "Harry Brook": {
-              "runs": 38,
+              "runs": 45,
               "wickets": 0
             },
             "Ben Stokes (c)": {
-              "runs": 16,
+              "runs": 19,
               "wickets": 0
             }
           },
@@ -518,6 +518,10 @@
             "Nathan Lyon": {
               "runs": 0,
               "wickets": 2
+            },
+            "Cameron Green": {
+              "runs": 0,
+              "wickets": 1
             }
           },
           "innings2": {}
