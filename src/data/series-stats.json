@@ -1,49 +1,49 @@
 {
-  "lastUpdated": "2025-12-18T00:49:22.899Z",
+  "lastUpdated": "2025-12-18T01:34:03.847Z",
   "actualTiebreaker": 172,
   "topRunScorers": {
     "eng": [
       {
         "name": "Joe Root",
-        "runs": 161
+        "runs": 172
       },
       {
         "name": "Zak Crawley",
-        "runs": 120
+        "runs": 129
       },
       {
         "name": "Ollie Pope",
-        "runs": 105
+        "runs": 108
       },
       {
         "name": "Harry Brook",
-        "runs": 98
+        "runs": 104
       },
       {
-        "name": "Ben Stokes",
-        "runs": 77
+        "name": "Ben Duckett",
+        "runs": 93
       }
     ],
     "aus": [
       {
         "name": "Travis Head",
-        "runs": 199
+        "runs": 209
+      },
+      {
+        "name": "Alex Carey",
+        "runs": 195
       },
       {
         "name": "Marnus Labuschagne",
-        "runs": 128
-      },
-      {
-        "name": "Jake Weatherald",
-        "runs": 112
-      },
-      {
-        "name": "Steve Smith",
-        "runs": 103
+        "runs": 147
       },
       {
         "name": "Mitchell Starc",
-        "runs": 89
+        "runs": 143
+      },
+      {
+        "name": "Jake Weatherald",
+        "runs": 130
       }
     ]
   },
@@ -51,10 +51,14 @@
     "eng": [
       {
         "name": "Brydon Carse",
-        "wickets": 9
+        "wickets": 11
       },
       {
         "name": "Ben Stokes",
+        "wickets": 8
+      },
+      {
+        "name": "Jofra Archer",
         "wickets": 8
       },
       {
@@ -62,12 +66,8 @@
         "wickets": 3
       },
       {
-        "name": "Jofra Archer",
-        "wickets": 3
-      },
-      {
         "name": "Will Jacks",
-        "wickets": 1
+        "wickets": 3
       }
     ],
     "aus": [
@@ -88,8 +88,8 @@
         "wickets": 6
       },
       {
-        "name": "Cameron Green",
-        "wickets": 1
+        "name": "Nathan Lyon",
+        "wickets": 2
       }
     ]
   }

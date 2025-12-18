@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-18T00:49:21.662Z",
+  "lastUpdated": "2025-12-18T01:34:02.562Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -399,6 +399,124 @@
               "wickets": 0
             }
           }
+        }
+      }
+    },
+    "108801": {
+      "matchId": "108801",
+      "date": "2025-12-18",
+      "status": "Day 2: Lunch Break - England trail by 312 runs",
+      "result": "Day 2: Lunch Break - England trail by 312 runs",
+      "scores": {
+        "eng": "59-3",
+        "aus": "371-10"
+      },
+      "playerStats": {
+        "eng": {
+          "innings1": {
+            "Jofra Archer": {
+              "runs": 0,
+              "wickets": 5
+            },
+            "Brydon Carse": {
+              "runs": 0,
+              "wickets": 2
+            },
+            "Josh Tongue": {
+              "runs": 0,
+              "wickets": 1
+            },
+            "Stokes (c)": {
+              "runs": 0,
+              "wickets": 0
+            },
+            "Will Jacks": {
+              "runs": 0,
+              "wickets": 2
+            },
+            "Zak Crawley": {
+              "runs": 9,
+              "wickets": 0
+            },
+            "Ben Duckett": {
+              "runs": 29,
+              "wickets": 0
+            },
+            "Ollie Pope": {
+              "runs": 3,
+              "wickets": 0
+            },
+            "Joe Root": {
+              "runs": 11,
+              "wickets": 0
+            },
+            "Harry Brook": {
+              "runs": 6,
+              "wickets": 0
+            }
+          },
+          "innings2": {}
+        },
+        "aus": {
+          "innings1": {
+            "Head": {
+              "runs": 10,
+              "wickets": 0
+            },
+            "Jake Weatherald": {
+              "runs": 18,
+              "wickets": 0
+            },
+            "Labuschagne": {
+              "runs": 19,
+              "wickets": 0
+            },
+            "Khawaja": {
+              "runs": 82,
+              "wickets": 0
+            },
+            "Green": {
+              "runs": 0,
+              "wickets": 0
+            },
+            "Alex Carey (wk)": {
+              "runs": 106,
+              "wickets": 0
+            },
+            "Josh Inglis": {
+              "runs": 32,
+              "wickets": 0
+            },
+            "Cummins (c)": {
+              "runs": 13,
+              "wickets": 0
+            },
+            "Mitchell Starc": {
+              "runs": 54,
+              "wickets": 0
+            },
+            "Lyon": {
+              "runs": 9,
+              "wickets": 0
+            },
+            "Boland": {
+              "runs": 14,
+              "wickets": 0
+            },
+            "Pat Cummins (c)": {
+              "runs": 0,
+              "wickets": 1
+            },
+            "Scott Boland": {
+              "runs": 0,
+              "wickets": 0
+            },
+            "Nathan Lyon": {
+              "runs": 0,
+              "wickets": 2
+            }
+          },
+          "innings2": {}
         }
       }
     }
