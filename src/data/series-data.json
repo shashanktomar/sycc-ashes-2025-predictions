@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-18T05:25:10.820Z",
+  "lastUpdated": "2025-12-18T05:40:09.839Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -405,10 +405,10 @@
     "108801": {
       "matchId": "108801",
       "date": "2025-12-18",
-      "status": "Day 2: 3rd Session - England trail by 209 runs",
-      "result": "Day 2: 3rd Session - England trail by 209 runs",
+      "status": "Day 2: 3rd Session - England trail by 203 runs",
+      "result": "Day 2: 3rd Session - England trail by 203 runs",
       "scores": {
-        "eng": "162-6",
+        "eng": "168-6",
         "aus": "371-10"
       },
       "playerStats": {
@@ -431,7 +431,7 @@
               "wickets": 0
             },
             "Will Jacks": {
-              "runs": 2,
+              "runs": 6,
               "wickets": 2
             },
             "Zak Crawley": {
@@ -455,7 +455,7 @@
               "wickets": 0
             },
             "Ben Stokes (c)": {
-              "runs": 29,
+              "runs": 31,
               "wickets": 0
             },
             "Jamie Smith (wk)": {
