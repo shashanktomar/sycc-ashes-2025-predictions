@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-19T04:26:51.303Z",
+  "lastUpdated": "2025-12-19T04:45:21.709Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -405,11 +405,11 @@
     "108801": {
       "matchId": "108801",
       "date": "2025-12-19",
-      "status": "Day 3: Tea Break - Australia lead by 204 runs",
-      "result": "Day 3: Tea Break - Australia lead by 204 runs",
+      "status": "Day 3: 3rd Session - Australia lead by 221 runs",
+      "result": "Day 3: 3rd Session - Australia lead by 221 runs",
       "scores": {
         "eng": "286-10",
-        "aus": "371-10 & 119-2"
+        "aus": "371-10 & 136-2"
       },
       "playerStats": {
         "eng": {
@@ -531,7 +531,7 @@
           },
           "innings2": {
             "Travis Head": {
-              "runs": 68,
+              "runs": 74,
               "wickets": 0
             },
             "Jake Weatherald": {
@@ -543,7 +543,7 @@
               "wickets": 0
             },
             "Usman Khawaja": {
-              "runs": 27,
+              "runs": 38,
               "wickets": 0
             }
           }
