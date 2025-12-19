@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-19T04:45:21.709Z",
+  "lastUpdated": "2025-12-19T05:07:25.904Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -405,11 +405,11 @@
     "108801": {
       "matchId": "108801",
       "date": "2025-12-19",
-      "status": "Day 3: 3rd Session - Australia lead by 221 runs",
-      "result": "Day 3: 3rd Session - Australia lead by 221 runs",
+      "status": "Day 3: 3rd Session - Australia lead by 242 runs",
+      "result": "Day 3: 3rd Session - Australia lead by 242 runs",
       "scores": {
         "eng": "286-10",
-        "aus": "371-10 & 136-2"
+        "aus": "371-10 & 157-4"
       },
       "playerStats": {
         "eng": {
@@ -470,11 +470,11 @@
             },
             "Josh Tongue": {
               "runs": 0,
-              "wickets": 1
+              "wickets": 2
             },
             "Will Jacks": {
               "runs": 0,
-              "wickets": 0
+              "wickets": 1
             },
             "Joe Root": {
               "runs": 0,
@@ -531,7 +531,7 @@
           },
           "innings2": {
             "Travis Head": {
-              "runs": 74,
+              "runs": 85,
               "wickets": 0
             },
             "Jake Weatherald": {
@@ -543,7 +543,15 @@
               "wickets": 0
             },
             "Usman Khawaja": {
-              "runs": 38,
+              "runs": 40,
+              "wickets": 0
+            },
+            "Cameron Green": {
+              "runs": 7,
+              "wickets": 0
+            },
+            "Alex Carey (wk)": {
+              "runs": 0,
               "wickets": 0
             }
           }
