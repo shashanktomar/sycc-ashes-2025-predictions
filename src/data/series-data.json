@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-19T02:26:08.883Z",
+  "lastUpdated": "2025-12-19T03:05:51.692Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -405,11 +405,11 @@
     "108801": {
       "matchId": "108801",
       "date": "2025-12-19",
-      "status": "Day 3: 2nd Session - Australia lead by 108 runs",
-      "result": "Day 3: 2nd Session - Australia lead by 108 runs",
+      "status": "Day 3: 2nd Session - Australia lead by 135 runs",
+      "result": "Day 3: 2nd Session - Australia lead by 135 runs",
       "scores": {
         "eng": "286-10",
-        "aus": "371-10 & 23-1"
+        "aus": "371-10 & 50-1"
       },
       "playerStats": {
         "eng": {
@@ -467,6 +467,14 @@
             "Brydon Carse": {
               "runs": 0,
               "wickets": 1
+            },
+            "Josh Tongue": {
+              "runs": 0,
+              "wickets": 0
+            },
+            "Will Jacks": {
+              "runs": 0,
+              "wickets": 0
             }
           }
         },
@@ -519,7 +527,7 @@
           },
           "innings2": {
             "Travis Head": {
-              "runs": 7,
+              "runs": 29,
               "wickets": 0
             },
             "Jake Weatherald": {
@@ -527,7 +535,7 @@
               "wickets": 0
             },
             "Marnus Labuschagne": {
-              "runs": 8,
+              "runs": 11,
               "wickets": 0
             }
           }
