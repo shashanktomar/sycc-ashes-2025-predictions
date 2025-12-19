@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-19T00:24:16.688Z",
+  "lastUpdated": "2025-12-19T00:49:29.130Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -405,17 +405,17 @@
     "108801": {
       "matchId": "108801",
       "date": "2025-12-19",
-      "status": "Day 3: 1st Session - England trail by 102 runs",
-      "result": "Day 3: 1st Session - England trail by 102 runs",
+      "status": "Day 3: 1st Session - England trail by 94 runs",
+      "result": "Day 3: 1st Session - England trail by 94 runs",
       "scores": {
-        "eng": "269-8",
+        "eng": "277-9",
         "aus": "371-10"
       },
       "playerStats": {
         "eng": {
           "innings1": {
             "Jofra Archer": {
-              "runs": 48,
+              "runs": 50,
               "wickets": 5
             },
             "Brydon Carse": {
@@ -423,7 +423,7 @@
               "wickets": 2
             },
             "Josh Tongue": {
-              "runs": 0,
+              "runs": 3,
               "wickets": 1
             },
             "Stokes (c)": {
@@ -455,7 +455,7 @@
               "wickets": 0
             },
             "Ben Stokes (c)": {
-              "runs": 80,
+              "runs": 83,
               "wickets": 0
             },
             "Jamie Smith (wk)": {
@@ -501,7 +501,7 @@
             },
             "Mitchell Starc": {
               "runs": 54,
-              "wickets": 0
+              "wickets": 1
             },
             "Lyon": {
               "runs": 9,
