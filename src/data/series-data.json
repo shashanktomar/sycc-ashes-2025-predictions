@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-19T03:42:32.234Z",
+  "lastUpdated": "2025-12-19T04:04:47.289Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -405,11 +405,11 @@
     "108801": {
       "matchId": "108801",
       "date": "2025-12-19",
-      "status": "Day 3: 2nd Session - Australia lead by 171 runs",
-      "result": "Day 3: 2nd Session - Australia lead by 171 runs",
+      "status": "Day 3: 2nd Session - Australia lead by 193 runs",
+      "result": "Day 3: 2nd Session - Australia lead by 193 runs",
       "scores": {
         "eng": "286-10",
-        "aus": "371-10 & 86-2"
+        "aus": "371-10 & 108-2"
       },
       "playerStats": {
         "eng": {
@@ -475,6 +475,10 @@
             "Will Jacks": {
               "runs": 0,
               "wickets": 0
+            },
+            "Joe Root": {
+              "runs": 0,
+              "wickets": 0
             }
           }
         },
@@ -527,7 +531,7 @@
           },
           "innings2": {
             "Travis Head": {
-              "runs": 46,
+              "runs": 61,
               "wickets": 0
             },
             "Jake Weatherald": {
@@ -539,7 +543,7 @@
               "wickets": 0
             },
             "Usman Khawaja": {
-              "runs": 16,
+              "runs": 23,
               "wickets": 0
             }
           }
