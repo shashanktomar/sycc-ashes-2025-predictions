@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-19T00:49:29.130Z",
+  "lastUpdated": "2025-12-19T01:34:07.441Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -405,17 +405,17 @@
     "108801": {
       "matchId": "108801",
       "date": "2025-12-19",
-      "status": "Day 3: 1st Session - England trail by 94 runs",
-      "result": "Day 3: 1st Session - England trail by 94 runs",
+      "status": "Day 3: 1st Session - Australia lead by 102 runs",
+      "result": "Day 3: 1st Session - Australia lead by 102 runs",
       "scores": {
-        "eng": "277-9",
-        "aus": "371-10"
+        "eng": "286-10",
+        "aus": "371-10 & 17-1"
       },
       "playerStats": {
         "eng": {
           "innings1": {
             "Jofra Archer": {
-              "runs": 50,
+              "runs": 51,
               "wickets": 5
             },
             "Brydon Carse": {
@@ -423,11 +423,11 @@
               "wickets": 2
             },
             "Josh Tongue": {
-              "runs": 3,
+              "runs": 7,
               "wickets": 1
             },
             "Stokes (c)": {
-              "runs": 0,
+              "runs": 83,
               "wickets": 0
             },
             "Will Jacks": {
@@ -438,7 +438,7 @@
               "runs": 9,
               "wickets": 0
             },
-            "Ben Duckett": {
+            "Duckett": {
               "runs": 29,
               "wickets": 0
             },
@@ -446,7 +446,7 @@
               "runs": 3,
               "wickets": 0
             },
-            "Joe Root": {
+            "Root": {
               "runs": 19,
               "wickets": 0
             },
@@ -454,16 +454,21 @@
               "runs": 45,
               "wickets": 0
             },
-            "Ben Stokes (c)": {
-              "runs": 83,
-              "wickets": 0
-            },
             "Jamie Smith (wk)": {
               "runs": 22,
               "wickets": 0
             }
           },
-          "innings2": {}
+          "innings2": {
+            "Jofra Archer": {
+              "runs": 0,
+              "wickets": 0
+            },
+            "Brydon Carse": {
+              "runs": 0,
+              "wickets": 1
+            }
+          }
         },
         "aus": {
           "innings1": {
@@ -485,7 +490,7 @@
             },
             "Green": {
               "runs": 0,
-              "wickets": 0
+              "wickets": 1
             },
             "Alex Carey (wk)": {
               "runs": 106,
@@ -497,7 +502,7 @@
             },
             "Cummins (c)": {
               "runs": 13,
-              "wickets": 0
+              "wickets": 3
             },
             "Mitchell Starc": {
               "runs": 54,
@@ -505,30 +510,27 @@
             },
             "Lyon": {
               "runs": 9,
-              "wickets": 0
+              "wickets": 2
             },
             "Boland": {
               "runs": 14,
-              "wickets": 0
-            },
-            "Pat Cummins (c)": {
-              "runs": 0,
               "wickets": 3
-            },
-            "Scott Boland": {
-              "runs": 0,
-              "wickets": 2
-            },
-            "Nathan Lyon": {
-              "runs": 0,
-              "wickets": 2
-            },
-            "Cameron Green": {
-              "runs": 0,
-              "wickets": 1
             }
           },
-          "innings2": {}
+          "innings2": {
+            "Travis Head": {
+              "runs": 5,
+              "wickets": 0
+            },
+            "Jake Weatherald": {
+              "runs": 1,
+              "wickets": 0
+            },
+            "Marnus Labuschagne": {
+              "runs": 4,
+              "wickets": 0
+            }
+          }
         }
       }
     }
