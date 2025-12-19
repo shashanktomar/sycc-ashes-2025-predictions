@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-19T05:07:27.141Z",
+  "lastUpdated": "2025-12-19T05:24:26.251Z",
   "actualTiebreaker": 172,
   "topRunScorers": {
     "eng": [
@@ -27,11 +27,11 @@
     "aus": [
       {
         "name": "Travis Head",
-        "runs": 294
+        "runs": 299
       },
       {
         "name": "Alex Carey",
-        "runs": 195
+        "runs": 211
       },
       {
         "name": "Marnus Labuschagne",

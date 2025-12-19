@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-19T05:07:25.904Z",
+  "lastUpdated": "2025-12-19T05:24:24.787Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -405,11 +405,11 @@
     "108801": {
       "matchId": "108801",
       "date": "2025-12-19",
-      "status": "Day 3: 3rd Session - Australia lead by 242 runs",
-      "result": "Day 3: 3rd Session - Australia lead by 242 runs",
+      "status": "Day 3: 3rd Session - Australia lead by 267 runs",
+      "result": "Day 3: 3rd Session - Australia lead by 267 runs",
       "scores": {
         "eng": "286-10",
-        "aus": "371-10 & 157-4"
+        "aus": "371-10 & 182-4"
       },
       "playerStats": {
         "eng": {
@@ -531,7 +531,7 @@
           },
           "innings2": {
             "Travis Head": {
-              "runs": 85,
+              "runs": 90,
               "wickets": 0
             },
             "Jake Weatherald": {
@@ -551,7 +551,7 @@
               "wickets": 0
             },
             "Alex Carey (wk)": {
-              "runs": 0,
+              "runs": 16,
               "wickets": 0
             }
           }
