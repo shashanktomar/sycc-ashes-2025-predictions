@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-20T23:23:39.623Z",
+  "lastUpdated": "2025-12-20T23:34:40.665Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -405,10 +405,10 @@
     "108801": {
       "matchId": "108801",
       "date": "2025-12-20",
-      "status": "Day 4: Stumps - England need 228 runs",
-      "result": "Day 4: Stumps - England need 228 runs",
+      "status": "Day 5: 1st Session - England need 225 runs",
+      "result": "Day 5: 1st Session - England need 225 runs",
       "scores": {
-        "eng": "286-10 & 207-6",
+        "eng": "286-10 & 210-6",
         "aus": "371-10 & 349-10"
       },
       "playerStats": {
@@ -509,7 +509,7 @@
               "wickets": 0
             },
             "Jamie Smith (wk)": {
-              "runs": 2,
+              "runs": 5,
               "wickets": 0
             }
           }
