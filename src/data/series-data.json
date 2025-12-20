@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-20T06:43:35.848Z",
+  "lastUpdated": "2025-12-20T06:55:04.952Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -405,10 +405,10 @@
     "108801": {
       "matchId": "108801",
       "date": "2025-12-20",
-      "status": "Day 4: 3rd Session - England need 237 runs",
-      "result": "Day 4: 3rd Session - England need 237 runs",
+      "status": "Day 4: 3rd Session - England need 230 runs",
+      "result": "Day 4: 3rd Session - England need 230 runs",
       "scores": {
-        "eng": "286-10 & 198-6",
+        "eng": "286-10 & 205-6",
         "aus": "371-10 & 349-10"
       },
       "playerStats": {
@@ -473,7 +473,7 @@
               "wickets": 4
             },
             "Will Jacks": {
-              "runs": 4,
+              "runs": 10,
               "wickets": 1
             },
             "Root": {
@@ -509,7 +509,7 @@
               "wickets": 0
             },
             "Jamie Smith (wk)": {
-              "runs": 0,
+              "runs": 1,
               "wickets": 0
             }
           }
