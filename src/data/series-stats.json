@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-19T23:48:32.162Z",
+  "lastUpdated": "2025-12-20T00:22:49.062Z",
   "actualTiebreaker": 172,
   "topRunScorers": {
     "eng": [
@@ -27,11 +27,11 @@
     "aus": [
       {
         "name": "Travis Head",
-        "runs": 360
+        "runs": 379
       },
       {
         "name": "Alex Carey",
-        "runs": 254
+        "runs": 266
       },
       {
         "name": "Marnus Labuschagne",
@@ -66,8 +66,8 @@
         "wickets": 4
       },
       {
-        "name": "Gus Atkinson",
-        "wickets": 3
+        "name": "Josh Tongue",
+        "wickets": 4
       }
     ],
     "aus": [

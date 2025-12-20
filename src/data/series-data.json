@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-19T23:48:30.812Z",
+  "lastUpdated": "2025-12-20T00:22:47.659Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -404,12 +404,12 @@
     },
     "108801": {
       "matchId": "108801",
-      "date": "2025-12-19",
-      "status": "Day 4: 1st Session - Australia lead by 372 runs",
-      "result": "Day 4: 1st Session - Australia lead by 372 runs",
+      "date": "2025-12-20",
+      "status": "Day 4: 1st Session - Australia lead by 409 runs",
+      "result": "Day 4: 1st Session - Australia lead by 409 runs",
       "scores": {
         "eng": "286-10",
-        "aus": "371-10 & 287-4"
+        "aus": "371-10 & 324-5"
       },
       "playerStats": {
         "eng": {
@@ -470,7 +470,7 @@
             },
             "Josh Tongue": {
               "runs": 0,
-              "wickets": 2
+              "wickets": 3
             },
             "Will Jacks": {
               "runs": 0,
@@ -535,7 +535,7 @@
           },
           "innings2": {
             "Travis Head": {
-              "runs": 151,
+              "runs": 170,
               "wickets": 0
             },
             "Jake Weatherald": {
@@ -555,7 +555,11 @@
               "wickets": 0
             },
             "Alex Carey (wk)": {
-              "runs": 59,
+              "runs": 71,
+              "wickets": 0
+            },
+            "Josh Inglis": {
+              "runs": 3,
               "wickets": 0
             }
           }
