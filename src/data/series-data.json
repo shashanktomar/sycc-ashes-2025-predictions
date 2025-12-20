@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-20T06:25:28.809Z",
+  "lastUpdated": "2025-12-20T06:43:35.848Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -405,10 +405,10 @@
     "108801": {
       "matchId": "108801",
       "date": "2025-12-20",
-      "status": "Day 4: 3rd Session - England need 246 runs",
-      "result": "Day 4: 3rd Session - England need 246 runs",
+      "status": "Day 4: 3rd Session - England need 237 runs",
+      "result": "Day 4: 3rd Session - England need 237 runs",
       "scores": {
-        "eng": "286-10 & 189-5",
+        "eng": "286-10 & 198-6",
         "aus": "371-10 & 349-10"
       },
       "playerStats": {
@@ -473,7 +473,7 @@
               "wickets": 4
             },
             "Will Jacks": {
-              "runs": 0,
+              "runs": 4,
               "wickets": 1
             },
             "Root": {
@@ -485,7 +485,7 @@
               "wickets": 1
             },
             "Zak Crawley": {
-              "runs": 80,
+              "runs": 85,
               "wickets": 0
             },
             "Ben Duckett": {
@@ -616,7 +616,7 @@
             },
             "Nathan Lyon": {
               "runs": 0,
-              "wickets": 2
+              "wickets": 3
             },
             "Cameron Green": {
               "runs": 0,
