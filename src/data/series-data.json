@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-20T04:28:31.674Z",
+  "lastUpdated": "2025-12-20T04:42:51.289Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -405,10 +405,10 @@
     "108801": {
       "matchId": "108801",
       "date": "2025-12-20",
-      "status": "Day 4: Tea Break - England need 329 runs",
-      "result": "Day 4: Tea Break - England need 329 runs",
+      "status": "Day 4: 3rd Session - England need 325 runs",
+      "result": "Day 4: 3rd Session - England need 325 runs",
       "scores": {
-        "eng": "286-10 & 106-2",
+        "eng": "286-10 & 110-3",
         "aus": "371-10 & 349-10"
       },
       "playerStats": {
@@ -485,7 +485,7 @@
               "wickets": 1
             },
             "Zak Crawley": {
-              "runs": 36,
+              "runs": 38,
               "wickets": 0
             },
             "Ben Duckett": {
@@ -497,7 +497,11 @@
               "wickets": 0
             },
             "Joe Root": {
-              "runs": 37,
+              "runs": 39,
+              "wickets": 0
+            },
+            "Harry Brook": {
+              "runs": 0,
               "wickets": 0
             }
           }
@@ -596,7 +600,7 @@
             },
             "Pat Cummins (c)": {
               "runs": 0,
-              "wickets": 2
+              "wickets": 3
             },
             "Scott Boland": {
               "runs": 0,
@@ -607,6 +611,10 @@
               "wickets": 0
             },
             "Cameron Green": {
+              "runs": 0,
+              "wickets": 0
+            },
+            "Travis Head": {
               "runs": 0,
               "wickets": 0
             }

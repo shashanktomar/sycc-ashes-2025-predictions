@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2025-12-20T04:28:33.045Z",
+  "lastUpdated": "2025-12-20T04:42:52.528Z",
   "actualTiebreaker": 172,
   "topRunScorers": {
     "eng": [
       {
         "name": "Joe Root",
-        "runs": 217
+        "runs": 219
       },
       {
         "name": "Zak Crawley",
-        "runs": 165
+        "runs": 167
       },
       {
         "name": "Ben Stokes",
@@ -89,7 +89,7 @@
       },
       {
         "name": "Pat Cummins",
-        "wickets": 5
+        "wickets": 6
       }
     ]
   }
