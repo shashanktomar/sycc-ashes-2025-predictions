@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-20T00:49:21.441Z",
+  "lastUpdated": "2025-12-20T01:33:25.116Z",
   "actualTiebreaker": 172,
   "topRunScorers": {
     "eng": [
@@ -21,7 +21,7 @@
       },
       {
         "name": "Ollie Pope",
-        "runs": 108
+        "runs": 109
       }
     ],
     "aus": [
@@ -39,7 +39,7 @@
       },
       {
         "name": "Mitchell Starc",
-        "runs": 143
+        "runs": 150
       },
       {
         "name": "Jake Weatherald",
@@ -51,7 +51,7 @@
     "eng": [
       {
         "name": "Brydon Carse",
-        "wickets": 12
+        "wickets": 14
       },
       {
         "name": "Ben Stokes",
@@ -59,7 +59,7 @@
       },
       {
         "name": "Jofra Archer",
-        "wickets": 8
+        "wickets": 9
       },
       {
         "name": "Josh Tongue",
@@ -89,7 +89,7 @@
       },
       {
         "name": "Pat Cummins",
-        "wickets": 3
+        "wickets": 4
       }
     ]
   }

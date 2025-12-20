@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-20T00:49:20.036Z",
+  "lastUpdated": "2025-12-20T01:33:23.677Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -405,11 +405,11 @@
     "108801": {
       "matchId": "108801",
       "date": "2025-12-20",
-      "status": "Day 4: 1st Session - Australia lead by 423 runs",
-      "result": "Day 4: 1st Session - Australia lead by 423 runs",
+      "status": "Day 4: Lunch Break - England need 430 runs",
+      "result": "Day 4: Lunch Break - England need 430 runs",
       "scores": {
-        "eng": "286-10",
-        "aus": "371-10 & 338-7"
+        "eng": "286-10 & 5-1",
+        "aus": "371-10 & 349-10"
       },
       "playerStats": {
         "eng": {
@@ -462,11 +462,11 @@
           "innings2": {
             "Jofra Archer": {
               "runs": 0,
-              "wickets": 0
+              "wickets": 1
             },
             "Brydon Carse": {
               "runs": 0,
-              "wickets": 1
+              "wickets": 3
             },
             "Josh Tongue": {
               "runs": 0,
@@ -476,13 +476,25 @@
               "runs": 0,
               "wickets": 1
             },
-            "Joe Root": {
+            "Root": {
               "runs": 0,
               "wickets": 0
             },
-            "Ben Stokes (c)": {
+            "Stokes (c)": {
               "runs": 0,
               "wickets": 1
+            },
+            "Zak Crawley": {
+              "runs": 0,
+              "wickets": 0
+            },
+            "Ben Duckett": {
+              "runs": 4,
+              "wickets": 0
+            },
+            "Ollie Pope": {
+              "runs": 1,
+              "wickets": 0
             }
           }
         },
@@ -534,7 +546,7 @@
             }
           },
           "innings2": {
-            "Travis Head": {
+            "Head": {
               "runs": 170,
               "wickets": 0
             },
@@ -542,15 +554,15 @@
               "runs": 1,
               "wickets": 0
             },
-            "Marnus Labuschagne": {
+            "Labuschagne": {
               "runs": 13,
               "wickets": 0
             },
-            "Usman Khawaja": {
+            "Khawaja": {
               "runs": 40,
               "wickets": 0
             },
-            "Cameron Green": {
+            "Green": {
               "runs": 7,
               "wickets": 0
             },
@@ -562,13 +574,25 @@
               "runs": 10,
               "wickets": 0
             },
-            "Pat Cummins (c)": {
-              "runs": 4,
+            "Cummins (c)": {
+              "runs": 6,
               "wickets": 0
             },
             "Mitchell Starc": {
+              "runs": 7,
+              "wickets": 0
+            },
+            "Lyon": {
               "runs": 0,
               "wickets": 0
+            },
+            "Boland": {
+              "runs": 1,
+              "wickets": 0
+            },
+            "Pat Cummins (c)": {
+              "runs": 0,
+              "wickets": 1
             }
           }
         }
