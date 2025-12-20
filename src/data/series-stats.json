@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2025-12-20T02:21:47.491Z",
+  "lastUpdated": "2025-12-20T03:01:50.753Z",
   "actualTiebreaker": 172,
   "topRunScorers": {
     "eng": [
       {
         "name": "Joe Root",
-        "runs": 180
+        "runs": 185
       },
       {
         "name": "Ben Stokes",
@@ -17,11 +17,11 @@
       },
       {
         "name": "Zak Crawley",
-        "runs": 130
+        "runs": 135
       },
       {
         "name": "Ollie Pope",
-        "runs": 115
+        "runs": 125
       }
     ],
     "aus": [
@@ -89,7 +89,7 @@
       },
       {
         "name": "Pat Cummins",
-        "wickets": 4
+        "wickets": 5
       }
     ]
   }
