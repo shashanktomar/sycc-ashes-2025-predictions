@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-20T04:52:39.325Z",
+  "lastUpdated": "2025-12-20T05:05:47.280Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -405,10 +405,10 @@
     "108801": {
       "matchId": "108801",
       "date": "2025-12-20",
-      "status": "Day 4: 3rd Session - England need 322 runs",
-      "result": "Day 4: 3rd Session - England need 322 runs",
+      "status": "Day 4: 3rd Session - England need 309 runs",
+      "result": "Day 4: 3rd Session - England need 309 runs",
       "scores": {
-        "eng": "286-10 & 113-3",
+        "eng": "286-10 & 126-3",
         "aus": "371-10 & 349-10"
       },
       "playerStats": {
@@ -485,7 +485,7 @@
               "wickets": 1
             },
             "Zak Crawley": {
-              "runs": 39,
+              "runs": 50,
               "wickets": 0
             },
             "Ben Duckett": {
@@ -501,7 +501,7 @@
               "wickets": 0
             },
             "Harry Brook": {
-              "runs": 2,
+              "runs": 4,
               "wickets": 0
             }
           }
