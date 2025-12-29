@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-29T07:38:57.369Z",
+  "lastUpdated": "2025-12-29T07:50:00.172Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -629,6 +629,214 @@
             "Marnus Labuschagne": {
               "runs": 0,
               "wickets": 0
+            }
+          }
+        }
+      }
+    },
+    "108809": {
+      "matchId": "108809",
+      "date": "2025-12-29",
+      "status": "",
+      "result": "",
+      "scores": {
+        "eng": "110-10 & 178-6",
+        "aus": "152-10 & 132-10"
+      },
+      "playerStats": {
+        "eng": {
+          "innings1": {
+            "Gus Atkinson": {
+              "runs": 28,
+              "wickets": 2
+            },
+            "Brydon Carse": {
+              "runs": 4,
+              "wickets": 1
+            },
+            "Josh Tongue": {
+              "runs": 1,
+              "wickets": 5
+            },
+            "Stokes (c)": {
+              "runs": 16,
+              "wickets": 1
+            },
+            "Zak Crawley": {
+              "runs": 5,
+              "wickets": 0
+            },
+            "Duckett": {
+              "runs": 2,
+              "wickets": 0
+            },
+            "Jacob Bethell": {
+              "runs": 1,
+              "wickets": 0
+            },
+            "Root": {
+              "runs": 0,
+              "wickets": 0
+            },
+            "Harry Brook": {
+              "runs": 41,
+              "wickets": 0
+            },
+            "Jamie Smith (wk)": {
+              "runs": 2,
+              "wickets": 0
+            },
+            "Will Jacks": {
+              "runs": 5,
+              "wickets": 0
+            }
+          },
+          "innings2": {
+            "Gus Atkinson": {
+              "runs": 0,
+              "wickets": 1
+            },
+            "Brydon Carse": {
+              "runs": 6,
+              "wickets": 4
+            },
+            "Josh Tongue": {
+              "runs": 0,
+              "wickets": 2
+            },
+            "Stokes (c)": {
+              "runs": 0,
+              "wickets": 3
+            },
+            "Zak Crawley": {
+              "runs": 37,
+              "wickets": 0
+            },
+            "Ben Duckett": {
+              "runs": 34,
+              "wickets": 0
+            },
+            "Jacob Bethell": {
+              "runs": 40,
+              "wickets": 0
+            },
+            "Joe Root": {
+              "runs": 15,
+              "wickets": 0
+            },
+            "Harry Brook": {
+              "runs": 18,
+              "wickets": 0
+            },
+            "Ben Stokes (c)": {
+              "runs": 2,
+              "wickets": 0
+            },
+            "Jamie Smith (wk)": {
+              "runs": 3,
+              "wickets": 0
+            }
+          }
+        },
+        "aus": {
+          "innings1": {
+            "Head": {
+              "runs": 12,
+              "wickets": 0
+            },
+            "Jake Weatherald": {
+              "runs": 10,
+              "wickets": 0
+            },
+            "Labuschagne": {
+              "runs": 6,
+              "wickets": 0
+            },
+            "Steven Smith (c)": {
+              "runs": 9,
+              "wickets": 0
+            },
+            "Khawaja": {
+              "runs": 29,
+              "wickets": 0
+            },
+            "Alex Carey (wk)": {
+              "runs": 20,
+              "wickets": 0
+            },
+            "Green": {
+              "runs": 17,
+              "wickets": 1
+            },
+            "Neser": {
+              "runs": 35,
+              "wickets": 4
+            },
+            "Mitchell Starc": {
+              "runs": 1,
+              "wickets": 2
+            },
+            "Jhye Richardson": {
+              "runs": 0,
+              "wickets": 0
+            },
+            "Boland": {
+              "runs": 0,
+              "wickets": 3
+            }
+          },
+          "innings2": {
+            "Boland": {
+              "runs": 6,
+              "wickets": 0
+            },
+            "Head": {
+              "runs": 46,
+              "wickets": 0
+            },
+            "Jake Weatherald": {
+              "runs": 5,
+              "wickets": 0
+            },
+            "Labuschagne": {
+              "runs": 8,
+              "wickets": 0
+            },
+            "Steven Smith (c)": {
+              "runs": 24,
+              "wickets": 0
+            },
+            "Khawaja": {
+              "runs": 0,
+              "wickets": 0
+            },
+            "Alex Carey (wk)": {
+              "runs": 4,
+              "wickets": 0
+            },
+            "Green": {
+              "runs": 19,
+              "wickets": 0
+            },
+            "Neser": {
+              "runs": 0,
+              "wickets": 0
+            },
+            "Mitchell Starc": {
+              "runs": 0,
+              "wickets": 2
+            },
+            "Jhye Richardson": {
+              "runs": 7,
+              "wickets": 2
+            },
+            "Michael Neser": {
+              "runs": 0,
+              "wickets": 0
+            },
+            "Scott Boland": {
+              "runs": 0,
+              "wickets": 2
             }
           }
         }

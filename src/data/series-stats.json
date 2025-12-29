@@ -1,49 +1,49 @@
 {
-  "lastUpdated": "2025-12-29T07:38:58.771Z",
+  "lastUpdated": "2025-12-29T07:50:01.650Z",
   "actualTiebreaker": 172,
   "topRunScorers": {
     "eng": [
       {
-        "name": "Joe Root",
-        "runs": 219
+        "name": "Zak Crawley",
+        "runs": 256
       },
       {
-        "name": "Zak Crawley",
-        "runs": 214
+        "name": "Joe Root",
+        "runs": 234
       },
       {
         "name": "Harry Brook",
-        "runs": 173
+        "runs": 232
       },
       {
         "name": "Ben Stokes",
-        "runs": 165
+        "runs": 183
       },
       {
         "name": "Jamie Smith",
-        "runs": 134
+        "runs": 139
       }
     ],
     "aus": [
       {
         "name": "Travis Head",
-        "runs": 379
+        "runs": 437
       },
       {
         "name": "Alex Carey",
-        "runs": 267
+        "runs": 291
       },
       {
         "name": "Marnus Labuschagne",
-        "runs": 160
+        "runs": 174
+      },
+      {
+        "name": "Usman Khawaja",
+        "runs": 153
       },
       {
         "name": "Mitchell Starc",
-        "runs": 150
-      },
-      {
-        "name": "Jake Weatherald",
-        "runs": 131
+        "runs": 151
       }
     ]
   },
@@ -51,41 +51,41 @@
     "eng": [
       {
         "name": "Brydon Carse",
-        "wickets": 14
+        "wickets": 19
       },
       {
         "name": "Ben Stokes",
-        "wickets": 9
+        "wickets": 13
+      },
+      {
+        "name": "Josh Tongue",
+        "wickets": 12
       },
       {
         "name": "Jofra Archer",
         "wickets": 9
       },
       {
-        "name": "Josh Tongue",
-        "wickets": 5
-      },
-      {
-        "name": "Will Jacks",
-        "wickets": 4
+        "name": "Gus Atkinson",
+        "wickets": 6
       }
     ],
     "aus": [
       {
         "name": "Mitchell Starc",
-        "wickets": 22
+        "wickets": 26
       },
       {
         "name": "Scott Boland",
-        "wickets": 11
+        "wickets": 16
+      },
+      {
+        "name": "Neser",
+        "wickets": 10
       },
       {
         "name": "Brendan Doggett",
         "wickets": 7
-      },
-      {
-        "name": "Neser",
-        "wickets": 6
       },
       {
         "name": "Pat Cummins",
