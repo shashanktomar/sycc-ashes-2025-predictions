@@ -1,49 +1,49 @@
 {
-  "lastUpdated": "2026-01-08T01:34:30.387Z",
+  "lastUpdated": "2026-01-08T02:29:25.132Z",
   "actualTiebreaker": 172,
   "topRunScorers": {
     "eng": [
       {
-        "name": "Zak Crawley",
-        "runs": 256
-      },
-      {
         "name": "Joe Root",
-        "runs": 234
+        "runs": 400
       },
       {
         "name": "Harry Brook",
-        "runs": 232
+        "runs": 358
       },
       {
-        "name": "Ben Stokes",
-        "runs": 183
+        "name": "Zak Crawley",
+        "runs": 273
       },
       {
         "name": "Jamie Smith",
-        "runs": 139
+        "runs": 211
+      },
+      {
+        "name": "Jacob Bethell",
+        "runs": 205
       }
     ],
     "aus": [
       {
         "name": "Travis Head",
-        "runs": 437
+        "runs": 629
       },
       {
         "name": "Alex Carey",
-        "runs": 291
+        "runs": 307
+      },
+      {
+        "name": "Steve Smith",
+        "runs": 286
       },
       {
         "name": "Marnus Labuschagne",
-        "runs": 174
+        "runs": 238
       },
       {
-        "name": "Usman Khawaja",
-        "runs": 153
-      },
-      {
-        "name": "Mitchell Starc",
-        "runs": 151
+        "name": "Jake Weatherald",
+        "runs": 201
       }
     ]
   },
@@ -51,15 +51,15 @@
     "eng": [
       {
         "name": "Brydon Carse",
-        "wickets": 19
-      },
-      {
-        "name": "Ben Stokes",
-        "wickets": 13
+        "wickets": 22
       },
       {
         "name": "Josh Tongue",
-        "wickets": 12
+        "wickets": 17
+      },
+      {
+        "name": "Ben Stokes",
+        "wickets": 15
       },
       {
         "name": "Jofra Archer",
@@ -73,15 +73,15 @@
     "aus": [
       {
         "name": "Mitchell Starc",
-        "wickets": 26
+        "wickets": 31
       },
       {
         "name": "Scott Boland",
-        "wickets": 16
+        "wickets": 20
       },
       {
         "name": "Neser",
-        "wickets": 10
+        "wickets": 15
       },
       {
         "name": "Brendan Doggett",
