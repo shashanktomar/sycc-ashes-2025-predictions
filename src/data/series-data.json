@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-08T03:10:36.136Z",
+  "lastUpdated": "2026-01-08T03:47:26.696Z",
   "seriesScore": {
     "england": 0,
     "australia": 0,
@@ -845,11 +845,11 @@
     "108811": {
       "matchId": "108811",
       "date": "2026-01-08",
-      "status": "Day 5: 2nd Session - Australia need 20 runs",
-      "result": "Day 5: 2nd Session - Australia need 20 runs",
+      "status": "",
+      "result": "",
       "scores": {
         "eng": "384-10 & 342-10",
-        "aus": "567-10 & 140-5"
+        "aus": "567-10 & 161-5"
       },
       "playerStats": {
         "eng": {
@@ -1047,11 +1047,11 @@
               "wickets": 0
             },
             "Alex Carey (wk)": {
-              "runs": 10,
+              "runs": 16,
               "wickets": 0
             },
             "Cameron Green": {
-              "runs": 11,
+              "runs": 22,
               "wickets": 0
             }
           }
